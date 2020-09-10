@@ -2527,6 +2527,20 @@ th { font-size: 0.765625rem; text-transform: uppercase; }
 
 html { font-size: 16px; }
 
+.bibliography { list-style-type: none; }
+
+.bibliography li { display: grid; align-items: start; grid-template-columns: 20px 1fr; grid-template-areas: "square ref"; gap: 10px; }
+
+.bibliography li .text-justify { grid-area: ref; }
+
+.bibliography li .square { margin-top: 4px; height: 12px; width: 12px; }
+
+.bibliography li .square-conf { background: #196ca3; }
+
+.bibliography li .square-journal { background: #c32b72; }
+
+.bibliography li .square-arxiv { background: #606b70; }
+
 h1 { margin-top: 50px; }
 
 .btnPub--abstract { border-bottom: 2px solid #20c997; padding: 0px; }
