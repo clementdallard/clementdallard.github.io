@@ -2527,6 +2527,12 @@ th { font-size: 0.765625rem; text-transform: uppercase; }
 
 html { font-size: 16px; }
 
+.text-arxiv { color: #b31b1b; }
+
+.text-doi { color: #fcb426; }
+
+.text-hal { color: #292063; }
+
 .bibliography { padding-left: 12px; list-style-type: none; }
 
 .bibliography li { display: grid; align-items: start; grid-template-columns: 20px 1fr; grid-template-areas: "square ref"; gap: 12px; }
@@ -2539,7 +2545,7 @@ html { font-size: 16px; }
 
 .bibliography li .square-journal { background: #c32b72; }
 
-.bibliography li .square-arxiv { background: #606b70; }
+.bibliography li .square-informal-article { background: #606b70; }
 
 h1 { margin-top: 50px; }
 
