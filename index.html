@@ -93,7 +93,7 @@ I completed my PhD in September 2019 at the <a href="http://www.port.ac.uk/">Uni
 	<div class="dropDownAbstract" data-toggle="button" aria-pressed="false" id="bartier2020girth-abstract">
     In the <font style="font-variant: small-caps">Token Jumping</font> problem we are given a graph $G = (V,E)$ and two independent sets $S$ and $T$ of $G$, each of size $k ≥1$.
 The goal is to determine whether there exists a sequence of $k$-sized independent sets in $G$, $⟨S_0, S_1, \ldots, S_\ell ⟩$, such that for every $i$,
-$|S_i| = k$, $S_i$ is an independent set, $S = S_0$, $S_\ell = T$, and $|S_i ∆S_i+1| = 2$.
+$|S_i| = k$, $S_i$ is an independent set, $S = S_0$, $S_\ell = T$, and $|S_i ∆S_{i+1}| = 2$.
 In other words, if we view each independent set as a collection of tokens placed on a subset
 of the vertices of $G$, then the problem asks for a sequence of independent sets which transforms $S$ to $T$ by individual token jumps which
 maintain the independence of the sets. This problem is known to be PSPACE-complete on very restricted graph classes, e.g., planar bounded degree graphs and graphs of
@@ -101,7 +101,7 @@ bounded bandwidth. A closely related problem is the <font style="font-variant: s
 require that a token slides along an edge of the graph. <font style="font-variant: small-caps">Token Sliding</font> is also known to be PSPACE-complete on the aforementioned graph classes.
 We investigate the parameterized complexity of both problems on several graph classes, focusing on the effect of excluding certain cycles from the input graph.
 In particular, we show that both <font style="font-variant: small-caps">Token Sliding</font> and <font style="font-variant: small-caps">Token Jumping</font> are fixed-parameter tractable on $C_4$-free bipartite graphs when parameterized by $k$.
-For <font style="font-variant: small-caps">Token Jumping</font>, we in fact show that the problem admits a polynomial kernel on ${C_3,C_4}$-free graphs. In the case of <font style="font-variant: small-caps">Token Sliding</font>, we also
+For <font style="font-variant: small-caps">Token Jumping</font>, we in fact show that the problem admits a polynomial kernel on $\{C_3,C_4\}$-free graphs. In the case of <font style="font-variant: small-caps">Token Sliding</font>, we also
 show that the problem admits a polynomial kernel on bipartite graphs of bounded degree. We believe both of these results to be of independent interest.
 We complement these positive results by showing that, for any constant $p ≥4$, both problems are W[1]-hard on $C_\ell$-free graphs, where $4 ≤\ell ≤p$,  
 and <font style="font-variant: small-caps">Token Sliding</font> remains W[1]-hard even on bipartite graphs.
@@ -199,7 +199,7 @@ These results answer some questions proposed by Bazgan et al. [Algorithmica 80(6
     We prove that both problems remain NP-complete on binary $4$-caterpillars and on ternary $3$-caterpillars.
     This answers an open question regarding the complexity of the problems on trees with maximum degree at most $5$.
     On the positive side, we give a linear time algorithm for $1$-caterpillars with unbounded degree, even if the backbone is a cycle, which outperforms the previous best complexity for paths and widens the class of graphs.
-    Finally, we answer an open question regarding the complexity of 	extscColourful Components on graphs with maximum degree at most $5$.
+    Finally, we answer an open question regarding the complexity of <font style="font-variant: small-caps">Colourful Components</font> on graphs with maximum degree at most $5$.
     We show that the problem is NP-complete on $5$-coloured planar graphs with maximum degree $4$, and on $12$-coloured planar graphs with maximum degree $3$.
     Since the problem can be solved in polynomial-time on graphs with maximum degree $2$, the results are the best possible with regard to the maximum degree.
   </div>
@@ -228,7 +228,7 @@ These results answer some questions proposed by Bazgan et al. [Algorithmica 80(6
 	<div class="dropDownAbstract" data-toggle="button" aria-pressed="false" id="MR4023158-abstract">
     We define a <i>proportionally dense subgraph</i> (PDS) as an induced subgraph of a graph with the property that each vertex in the PDS is adjacent to proportionally as many vertices in the subgraph as in the graph.
 We prove that the problem of finding a PDS of maximum size is NP-hard, more precisely APX-hard, even on split graphs.
-On the other hand, we present a simple polynomial-time $(2-(2/(∆+1))$-approximation algorithm for the problem.
+On the other hand, we present a simple polynomial-time $(2-\frac{2}{∆+1})$-approximation algorithm for the problem.
 We also prove that all Hamiltonian cubic graphs (except two) have a PDS of the maximum possible size which can be found in linear time (if a Hamiltonian cycle is given).
 Finally, we show that deciding if a PDS is inclusion-wise maximal is co-NP-complete on bipartite graphs.
   </div>
