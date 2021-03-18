@@ -2581,4 +2581,10 @@ h1 { margin-top: 50px; }
 
 li { margin: 10px 0; }
 
+.teaching { list-style-type: none; }
+
+.teaching li { display: grid; align-items: start; grid-template-columns: 1fr 3fr; grid-template-areas: "left ref"; gap: 12px; }
+
+.teaching li .text-justify { grid-area: ref; }
+
 /*# sourceMappingURL=main.css.map */
