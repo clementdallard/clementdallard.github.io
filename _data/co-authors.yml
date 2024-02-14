@@ -1,0 +1,143 @@
+co-authors:
+  - name: Baghirova, Narmina
+    publications:
+      - kcomstruct
+  - name: Bartier, Valentin
+    publications:
+      - bartier2021token
+      - bartier2020girth
+  - name: Bazgan, Cristina
+    publications:
+      - MR4042574
+      - MR4023158
+  - name: Bousquet, Nicolas
+    publications:
+      - bartier2021token
+      - bartier2020girth
+  - name: Chateau, Annie
+    publications:
+      - MR3782437
+      - MR3614403
+  - name: Chiarelli, Nina
+    publications:
+      - CHIARELLI202345
+      - posetsanta
+  - name: Chlebíková, Janka
+    publications:
+      - colourfullTCS
+      - MR4042574
+      - MR4023158
+      - MR3991231
+      - MR3973648
+  - name: Cicalese, Ferdinando
+    publications:
+      - digraphrepresentation
+  - name: Darmann, Andreas
+    publications:
+      - CHIARELLI202345
+      - posetsanta
+  - name: Fernández, Blas
+    publications:
+      - mintoughnesss
+  - name: Fomin, Fedor V.
+    publications:
+      - approxtreealpha
+  - name: Ganian, Robert
+    publications:
+      - dallard2021moplexes
+      - dallard2021graphs
+  - name: Giroudeau, Rodolphe
+    publications:
+      - MR3782437
+      - MR3614403
+  - name: Golovach, Petr A.
+    publications:
+      - approxtreealpha
+  - name: Hatzel, Meike
+    publications:
+      - dallard2021moplexes
+      - dallard2021graphs
+  - name: Katona, Gyula Y.
+    publications:
+      - mintoughnesss
+  - name: Korhonen, Tuukka
+    publications:
+      - approxtreealpha
+  - name: Krbezlija, Mirza
+    publications:
+      - distancevertexcover
+  - name: Krnc, Matjaž
+    publications:
+      - dallard2021moplexes
+      - dallard2021graphs
+  - name: Lendl, Stefan
+    publications:
+      - CHIARELLI202345
+      - posetsanta
+  - name: Lomer, Kyle
+    publications:
+      - bartier2021token
+      - bartier2020girth
+  - name: Lozin, Vadim
+    publications:
+      - functionality2023
+  - name: Milanič, Martin
+    publications:
+      - CHIARELLI202345
+      - functionality2023
+      - digraphrepresentation
+      - mintoughnesss
+      - approxtreealpha
+      - dallard2022secondpaper
+      - dallard2022firstpaper
+      - twomegajournal
+      - posetsanta
+      - distancevertexcover
+      - dallard2021moplexes
+      - dallard2021graphs
+      - twomegaboundedness
+  - name: Mouawad, Amer E.
+    publications:
+      - bartier2021token
+      - bartier2020girth
+  - name: Muršič, Peter
+    publications:
+      - CHIARELLI202345
+      - posetsanta
+  - name: Paulsen, Niklas
+    publications:
+      - MR3973648
+  - name: Pferschy, Ulrich
+    publications:
+      - CHIARELLI202345
+      - posetsanta
+  - name: Pivač, Nevena
+    publications:
+      - CHIARELLI202345
+      - posetsanta
+  - name: Pontoizeau, Thomas
+    publications:
+      - MR4023158
+  - name: Ries, Bernard
+    publications:
+      - kcomstruct
+  - name: Schindl, David
+    publications:
+      - kcomstruct
+  - name: Štorgel, Kenny
+    publications:
+      - functionality2023
+      - dallard2022secondpaper
+      - dallard2022firstpaper
+      - twomegajournal
+      - twomegaboundedness
+  - name: Varga, Kitti
+    publications:
+      - mintoughnesss
+  - name: Weller, Mathias
+    publications:
+      - MR3782437
+      - MR3614403
+  - name: Zamaraev, Viktor
+    publications:
+      - functionality2023
