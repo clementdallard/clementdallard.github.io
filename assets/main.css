@@ -12280,8 +12280,8 @@ span a {
   color: #000;
   text-decoration: none;
 }
-#authors-list li:not(.clear-all-link) a.selected-author,
-#types-list li:not(.clear-all-link) a.selected-author {
+#authors-list li:not(.clear-all-link) a.selected,
+#types-list li:not(.clear-all-link) a.selected {
   color: #0066cc;
   font-weight: 600;
 }
@@ -12297,12 +12297,12 @@ span a {
   top: 0;
   text-indent: 0.75rem;
 }
-#authors-list li:not(.clear-all-link) a:hover:not(.selected-author):before,
-#types-list li:not(.clear-all-link) a:hover:not(.selected-author):before {
+#authors-list li:not(.clear-all-link) a:hover:not(.selected):before,
+#types-list li:not(.clear-all-link) a:hover:not(.selected):before {
   content: "(+)";
 }
-#authors-list li:not(.clear-all-link) a:hover.selected-author:before,
-#types-list li:not(.clear-all-link) a:hover.selected-author:before {
+#authors-list li:not(.clear-all-link) a:hover.selected:before,
+#types-list li:not(.clear-all-link) a:hover.selected:before {
   content: "(-)";
 }
 #authors-list li.clear-all-link a,

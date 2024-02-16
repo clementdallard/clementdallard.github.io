@@ -1837,9 +1837,9 @@ function filterAuthors() {
     li.hidden = !displayedAuthors.has(author);
 
     if (selectedAuthors.includes(author)) {
-      li.querySelector("a").classList.add("selected-author");
+      li.querySelector("a").classList.add("selected");
     } else {
-      li.querySelector("a").classList.remove("selected-author");
+      li.querySelector("a").classList.remove("selected");
     }
   });
 
