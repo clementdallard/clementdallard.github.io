@@ -39,12 +39,12 @@
   </script>
 </head>
 <body><header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <nav class="container bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+  <nav class="container bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation" data-bs-theme="dark">
     <a class="navbar-brand">Clément Dallard</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarColor01">
+    <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav flex-wrap bd-navbar-nav">
         
         
@@ -84,6 +84,80 @@
       <!--   -->
       <!-- <h2 class="year-header">2024</h2> -->
       <div class="bibliography"><li><div
+  class="biblio-item"
+  id="dallard2022secondpaper"
+  data-type="article"
+  data-year="2024"
+  data-authors="Dallard, Clément and Milanič, Martin and Štorgel, Kenny"
+>
+  
+  <div class="square square-journal"></div>
+  
+  <div class="text-justify">
+    <span><span id="dallard2022secondpaper"><div class="csl-block"><span style="font-weight: 600">Treewidth versus clique number. III. Tree-independence number of graphs with a forbidden structure</span></div><div class="csl-block">C. Dallard, M. Milanič, and K. Štorgel.</div><div class="csl-block"><i>Journal of Combinatorial Theory, Series B</i>, Jul. 2024.</div></span></span>
+     
+    <span
+      ><a href="https://doi.org/10.1016/j.jctb.2024.03.005" title="DOI"
+        ><img
+          img
+          class="small-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/DOI_logo.svg/1024px-DOI_logo.svg.png" /></a
+    ></span>
+      
+    <span
+      ><a
+        href="https://arxiv.org/abs/2206.15092"
+        title="arXiv"
+        ><img
+          class="small-logo"
+          src="https://avatars3.githubusercontent.com/u/45442578" /></a
+    ></span>
+     
+    <button
+      class="btn btn-outline-info"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight_dallard2022secondpaper"
+      aria-controls="offcanvasRight"
+    >
+      Abstract
+    </button>
+
+    <div
+      class="offcanvas offcanvas-end adaptive-offcanvas"
+      tabindex="-1"
+      id="offcanvasRight_dallard2022secondpaper"
+      aria-labelledby="offcanvasRightLabel_dallard2022secondpaper"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel_dallard2022secondpaper">
+          Treewidth versus clique number. III. Tree-independence number of graphs with a forbidden structure
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">We continue the study of $(tw,ω)$-bounded graph classes, that is, hereditary graph classes in which the treewidth can only be large due to the presence of a large clique, with the goal of understanding the extent to which this property has useful algorithmic implications for the Maximum Independent Set and related problems.
+                   
+                   In the previous paper of the series [Dallard, Milanič, and Štorgel, Treewidth versus clique number. II. Tree-independence number], we introduced the <i>tree-independence number</i>, a min-max graph invariant related to tree decompositions.
+                   Bounded tree-independence number implies both $(tw,ω)$-boundedness and the existence of a polynomial-time algorithm for the Maximum Weight Independent Packing problem, provided that the input graph is given together with a tree decomposition with bounded independence number.
+                   In particular, this implies polynomial-time solvability of the Maximum Weight Independent Set problem.
+                   
+                   In this paper, we consider six graph containment relations—the subgraph, topological minor, and minor relations, as well as their induced variants—and for each of them characterize the graphs $H$ for which any graph excluding $H$ with respect to the relation admits a tree decomposition with bounded independence number.
+                   The induced minor relation is of particular interest: we show that excluding either a $K_5$ minus an edge or the $4$-wheel implies the existence of a tree decomposition in which every bag is a clique plus at most $3$ vertices, while excluding a complete bipartite graph $K_{2,q}$ implies the existence of a tree decomposition with independence number at most $2(q-1)$.
+                   
+                   These results are obtained using a variety of tools, including $\ell$-refined tree decompositions, SPQR trees, and potential maximal cliques, and actually show that in the bounded cases identified in this work, one can also compute tree decompositions with bounded independence number efficiently.
+                   Applying the algorithmic framework provided by the previous paper in the series leads to polynomial-time algorithms for the Maximum Weight Independent Set problem in an infinite family of graph classes, each of which properly contains the class of chordal graphs.
+                   In particular, these results apply to the class of $1$-perfectly orientable graphs, answering a question of Beisegel, Chudnovsky, Gurvich, Milanič, and Servatius from 2019.</div>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div
   class="biblio-item"
   id="dallard2024treewidth"
   data-type="misc"
@@ -188,8 +262,8 @@
         ></button>
       </div>
       <div class="offcanvas-body">We consider a natural generalization of chordal graphs, in which every minimal separator induces a subgraph with independence number at most $2$. Such graphs can be equivalently defined as graphs that do not contain the complete bipartite graph $K_{2,3}$ as an induced minor, that is, graphs from which $K_{2,3}$ cannot be obtained by a sequence of edge contractions and vertex deletions.
-      
-      We develop a polynomial-time algorithm for recognizing these graphs. Our algorithm relies on a characterization of $K_{2,3}$-induced minor-free graphs in terms of excluding particular induced subgraphs, called Truemper configurations.</div>
+                   
+                   We develop a polynomial-time algorithm for recognizing these graphs. Our algorithm relies on a characterization of $K_{2,3}$-induced minor-free graphs in terms of excluding particular induced subgraphs, called Truemper configurations.</div>
     </div>
     
   </div>
@@ -245,7 +319,62 @@
         ></button>
       </div>
       <div class="offcanvas-body">Allocating indivisible items among a set of agents is a frequently studied discrete optimization problem. In the setting considered in this work, the agents&#39; preferences over the items are assumed to be identical. We consider a very recent measure for the overall quality of an allocation which does not rely on numerical valuations of the items. Instead, it captures the agents&#39; opinion by a directed acyclic preference graph with vertices representing items. An arc $(a,b)$ in such a graph means that the agents prefer item $a$ over item $b$. For a given allocation of items the dissatisfaction of an agent is defined as the number of items which the agent does not receive and for which no more preferred item is given to the agent. Our goal is to find an efficient allocation of the items to the agents such that the total dissatisfaction over all agents is minimized.
-      We explore the dichotomy between NP-hard and polynomially solvable instances, depending on properties of the underlying preference graph. While the problem is NP-hard already for three agents even on very restricted graph classes, it is polynomially solvable for two agents on general preference graphs. For an arbitrary number of agents, we derive polynomial-time algorithms for relevant restrictions of the underlying undirected graph. These are trees and, among the graphs of treewidth two, series-parallel graphs and cactus graphs.</div>
+                   We explore the dichotomy between NP-hard and polynomially solvable instances, depending on properties of the underlying preference graph. While the problem is NP-hard already for three agents even on very restricted graph classes, it is polynomially solvable for two agents on general preference graphs. For an arbitrary number of agents, we derive polynomial-time algorithms for relevant restrictions of the underlying undirected graph. These are trees and, among the graphs of treewidth two, series-parallel graphs and cactus graphs.</div>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div
+  class="biblio-item"
+  id="chiarelli2023minimizing"
+  data-type="misc"
+  data-year="2024"
+  data-authors="Chiarelli, Nina and Dallard, Clément and Darmann, Andreas and Lendl, Stefan and Milanič, Martin and Muršič, Peter and Pferschy, Ulrich"
+>
+  
+  <div class="square square-informal-article"></div>
+  
+  <div class="text-justify">
+    <span><span id="chiarelli2023minimizing"><div class="csl-block"><span style="font-weight: 600">Minimizing Maximum Dissatisfaction in the Allocation of Indivisible Items under a Common Preference Graph</span></div><div class="csl-block">N. Chiarelli, C. Dallard, A. Darmann, S. Lendl, M. Milanič, P. Muršič, and U. Pferschy.</div><div class="csl-block">Feb. 2024.</div></span></span>
+       
+    <span
+      ><a
+        href="https://arxiv.org/abs/2312.01804"
+        title="arXiv"
+        ><img
+          class="small-logo"
+          src="https://avatars3.githubusercontent.com/u/45442578" /></a
+    ></span>
+     
+    <button
+      class="btn btn-outline-info"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight_chiarelli2023minimizing"
+      aria-controls="offcanvasRight"
+    >
+      Abstract
+    </button>
+
+    <div
+      class="offcanvas offcanvas-end adaptive-offcanvas"
+      tabindex="-1"
+      id="offcanvasRight_chiarelli2023minimizing"
+      aria-labelledby="offcanvasRightLabel_chiarelli2023minimizing"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel_chiarelli2023minimizing">
+          Minimizing Maximum Dissatisfaction in the Allocation of Indivisible Items under a Common Preference Graph
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">We consider the task of allocating indivisible items to agents, when the agents’ preferences over the items are identical. The preferences are captured by means of a directed acyclic graph, with vertices representing items and an edge $(a,b)$ meaning that each of the agents prefers item $a$ over item $b$. The dissatisfaction of an agent is measured by the number of items that the agent does not receive and also does not receive any more preferred item. The aim is to allocate the items to the agents in a fair way, i.e., to minimize the maximum dissatisfaction among the agents. We study the status of computational complexity of that problem and establish the following dichotomy: the problem is NP-hard for the case of at least three agents, even on fairly restricted graphs, but polynomially solvable for two agents. We also provide several polynomial-time results with respect to different underlying graph structures, such as graphs of width at most two and tree-like structures such as stars and matchings. These findings are complemented with fixed parameter tractability results related to path modules and independent set modules. Techniques employed in the paper include bottleneck assignment problem, greedy algorithm, dynamic programming, maximum network flow, and integer linear programming.</div>
     </div>
     
   </div>
@@ -398,20 +527,20 @@
       <!-- <h2 class="year-header">2023</h2> -->
       <div class="bibliography"><li><div
   class="biblio-item"
-  id="chiarelli2023minimizing"
+  id="kcomstruct"
   data-type="misc"
   data-year="2023"
-  data-authors="Chiarelli, Nina and Dallard, Clément and Darmann, Andreas and Lendl, Stefan and Milanič, Martin and Muršič, Peter and Pferschy, Ulrich"
+  data-authors="Baghirova, Narmina and Dallard, Clément and Ries, Bernard and Schindl, David"
 >
   
   <div class="square square-informal-article"></div>
   
   <div class="text-justify">
-    <span><span id="chiarelli2023minimizing"><div class="csl-block"><span style="font-weight: 600">Minimizing Maximum Dissatisfaction in the Allocation of Indivisible Items under a Common Preference Graph</span></div><div class="csl-block">N. Chiarelli, C. Dallard, A. Darmann, S. Lendl, M. Milanič, P. Muršič, and U. Pferschy.</div><div class="csl-block">Dec. 2023.</div></span></span>
+    <span><span id="kcomstruct"><div class="csl-block"><span style="font-weight: 600">Finding $k$-community structures in special graph classes</span></div><div class="csl-block">N. Baghirova, C. Dallard, B. Ries, and D. Schindl.</div><div class="csl-block">Dec. 2023.</div></span></span>
        
     <span
       ><a
-        href="https://arxiv.org/abs/2312.01804"
+        href="https://arxiv.org/abs/2206.14738"
         title="arXiv"
         ><img
           class="small-logo"
@@ -422,7 +551,7 @@
       class="btn btn-outline-info"
       type="button"
       data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasRight_chiarelli2023minimizing"
+      data-bs-target="#offcanvasRight_kcomstruct"
       aria-controls="offcanvasRight"
     >
       Abstract
@@ -431,12 +560,12 @@
     <div
       class="offcanvas offcanvas-end adaptive-offcanvas"
       tabindex="-1"
-      id="offcanvasRight_chiarelli2023minimizing"
-      aria-labelledby="offcanvasRightLabel_chiarelli2023minimizing"
+      id="offcanvasRight_kcomstruct"
+      aria-labelledby="offcanvasRightLabel_kcomstruct"
     >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel_chiarelli2023minimizing">
-          Minimizing Maximum Dissatisfaction in the Allocation of Indivisible Items under a Common Preference Graph
+        <h5 class="offcanvas-title" id="offcanvasRightLabel_kcomstruct">
+          Finding $k$-community structures in special graph classes
         </h5>
         <button
           type="button"
@@ -445,7 +574,67 @@
           aria-label="Close"
         ></button>
       </div>
-      <div class="offcanvas-body">We consider the task of allocating indivisible items to agents, when the agents’ preferences over the items are identical. The preferences are captured by means of a directed acyclic graph, with vertices representing items and an edge $(a,b)$ meaning that each of the agents prefers item $a$ over item $b$. The dissatisfaction of an agent is measured by the number of items that the agent does not receive and also does not receive any more preferred item. The aim is to allocate the items to the agents in a fair way, i.e., to minimize the maximum dissatisfaction among the agents. We study the status of computational complexity of that problem and establish the following dichotomy: the problem is NP-hard for the case of at least three agents, even on fairly restricted graphs, but polynomially solvable for two agents. We also provide several polynomial-time results with respect to different underlying graph structures, such as graphs of width at most two and tree-like structures such as stars and matchings. These findings are complemented with fixed parameter tractability results related to path modules and independent set modules. Techniques employed in the paper include bottleneck assignment problem, greedy algorithm, dynamic programming, maximum network flow, and integer linear programming.</div>
+      <div class="offcanvas-body">
+                   For a fixed integer $k\ge 2$, a <i>$k$-community structure</i> in an undirected graph is a partition of its vertex set into $k$ sets called <i>communities</i>, each of size at least two, such that every vertex of the graph has proportionally at least as many neighbours in its own community as in any other community. In this paper, we give a necessary and sufficient condition for a forest on $n$ vertices to admit a $k$-community structure. Furthermore, we provide an $\mathcal{O}(n^{2})$-time algorithm that computes such a $k$-community structure in a forest, if it exists.
+                   These results extend a result of [Bazgan et al., Structural and algorithmic properties of $2$-community structure, Algorithmica, 80(6):1890-1908, 2018].
+                   We also show that if communities are allowed to have size one, then every forest with $n ≥k≥2$ vertices admits a $k$-community structure that can be found in time $\mathcal{O}(n^{2})$. We then consider threshold graphs and show that every connected threshold graph admits a $2$-community structure if and only if it is not isomorphic to a star; also if such a $2$-community structure exists, we explain how to obtain it in linear time. We further describe two infinite families of disconnected threshold graphs, containing exactly one isolated vertex, that do not admit any $2$-community structure. Finally, we present a new infinite family of connected graphs that may contain an even or an odd number of vertices without $2$-community structures, even if communities are allowed to have size one.</div>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div
+  class="biblio-item"
+  id="mintoughnesss"
+  data-type="misc"
+  data-year="2023"
+  data-authors="Dallard, Clément and Fernández, Blas and Katona, Gyula Y. and Milanič, Martin and Varga, Kitti"
+>
+  
+  <div class="square square-informal-article"></div>
+  
+  <div class="text-justify">
+    <span><span id="mintoughnesss"><div class="csl-block"><span style="font-weight: 600">Conditions for minimally tough graphs</span></div><div class="csl-block">C. Dallard, B. Fernández, G. Y. Katona, M. Milanič, and K. Varga.</div><div class="csl-block">Oct. 2023.</div></span></span>
+       
+    <span
+      ><a
+        href="https://arxiv.org/abs/2210.00383"
+        title="arXiv"
+        ><img
+          class="small-logo"
+          src="https://avatars3.githubusercontent.com/u/45442578" /></a
+    ></span>
+     
+    <button
+      class="btn btn-outline-info"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight_mintoughnesss"
+      aria-controls="offcanvasRight"
+    >
+      Abstract
+    </button>
+
+    <div
+      class="offcanvas offcanvas-end adaptive-offcanvas"
+      tabindex="-1"
+      id="offcanvasRight_mintoughnesss"
+      aria-labelledby="offcanvasRightLabel_mintoughnesss"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel_mintoughnesss">
+          Conditions for minimally tough graphs
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">Katona, Soltész, and Varga showed that no induced subgraph can be excluded from the class of minimally tough graphs. In this paper, we consider the opposite question, namely which induced subgraphs, if any, must necessarily be present in each minimally $t$-tough graph.
+                   Katona and Varga showed that for any rational number $t ∈(1/2,1]$, every minimally $t$-tough graph contains a hole. We complement this result by showing that for any rational number $t>1$, every minimally $t$-tough graph must contain either a hole or an induced subgraph isomorphic to the $k$-sun for some integer $k \ge 3$. 
+                   We also show that for any rational number $t > 1/2$, every minimally $t$-tough graph must contain either an induced $4$-cycle, an induced $5$-cycle, or two independent edges as an induced subgraph.</div>
     </div>
     
   </div>
@@ -567,6 +756,74 @@
     
   </div>
 </div>
+</li>
+<li><div
+  class="biblio-item"
+  id="dallard2021moplexes"
+  data-type="misc"
+  data-year="2023"
+  data-authors="Dallard, Clément and Ganian, Robert and Hatzel, Meike and Krnc, Matjaž and Milanič, Martin"
+>
+  
+  <div class="square square-informal-article"></div>
+  
+  <div class="text-justify">
+    <span><span id="dallard2021moplexes"><div class="csl-block"><span style="font-weight: 600">Graphs with at most two moplexes</span></div><div class="csl-block">C. Dallard, R. Ganian, M. Hatzel, M. Krnc, and M. Milanič.</div><div class="csl-block">Jan. 2023.</div></span></span>
+       
+    <span
+      ><a
+        href="https://arxiv.org/abs/2106.10049"
+        title="arXiv"
+        ><img
+          class="small-logo"
+          src="https://avatars3.githubusercontent.com/u/45442578" /></a
+    ></span>
+     
+    <button
+      class="btn btn-outline-info"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight_dallard2021moplexes"
+      aria-controls="offcanvasRight"
+    >
+      Abstract
+    </button>
+
+    <div
+      class="offcanvas offcanvas-end adaptive-offcanvas"
+      tabindex="-1"
+      id="offcanvasRight_dallard2021moplexes"
+      aria-labelledby="offcanvasRightLabel_dallard2021moplexes"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel_dallard2021moplexes">
+          Graphs with at most two moplexes
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">A moplex is a natural graph structure that arises when lifting Dirac’s classical theorem from chordal graphs to general graphs.
+                   The notion is known to be closely related to lexicographic searches in graphs as well as to asteroidal triples, and has been applied in several algorithms related to graph classes such as interval graphs, claw-free, and diamond-free graphs.
+                   However, while every non-complete graph has at least two moplexes, little is known about structural properties of graphs with a bounded number of moplexes.
+                   The study of these graphs is, in part, motivated by the parallel between moplexes in general graphs and simplicial modules in chordal graphs: unlike in the moplex setting, properties of chordal graphs with a bounded number of simplicial modules are well understood.
+                   For instance, chordal graphs having at most two simplicial modules are interval.
+                   
+                   In this work we initiate an investigation of $k$-moplex graphs, which are defined as graphs containing at most $k$ moplexes.
+                   Of particular interest is the smallest nontrivial case $k=2$, which forms a counterpart to the class of interval graphs. 
+                   As our main structural result, we show that, when restricted to connected graphs, the class of $2$-moplex graphs is sandwiched between the classes of proper interval graphs and cocomparability graphs; moreover, both inclusions are tight for hereditary classes.
+                   From a complexity theoretic viewpoint, this leads to the natural question of whether the presence of at most two moplexes guarantees a sufficient amount of structure to efficiently solve problems that are known to be intractable on cocomparability graphs, but not on proper interval graphs.
+                   We develop new reductions that answer this question negatively for two prominent problems fitting this profile, namely <font style="font-variant: small-caps">Graph Isomorphism</font> and <font style="font-variant: small-caps">Max-Cut</font>.
+                   On the other hand, we prove that every connected $2$-moplex graph contains a Hamiltonian path, generalising the same property of connected proper interval graphs.
+                   Furthermore, for graphs with a higher number of moplexes, we lift the previously known result that graphs without asteroidal triples have at most two moplexes to the more general setting of larger asteroidal sets.
+                   </div>
+    </div>
+    
+  </div>
+</div>
 </li></div>
       <!--   -->
       <!-- <h2 class="year-header">2022</h2> -->
@@ -619,64 +876,7 @@
         ></button>
       </div>
       <div class="offcanvas-body">We study the problem of determining minimal directed intersection representations of DAGs in a model introduced by [Kostochka, Liu, Machado, and Milenkovic, ISIT2019]: vertices are assigned color sets, two vertices are connected by an arc if and only if they share at least one color and the tail vertex has a strictly smaller color set than the head, and the goal is to minimize the total number of colors. 
-               We show that the problem is polynomially solvable in the class of triangle-free and Hamiltonian DAGs and also disclose the relationship of this problem with several other models of intersection representations of graphs and digraphs.</div>
-    </div>
-    
-  </div>
-</div>
-</li>
-<li><div
-  class="biblio-item"
-  id="mintoughnesss"
-  data-type="misc"
-  data-year="2022"
-  data-authors="Dallard, Clément and Fernández, Blas and Katona, Gyula Y. and Milanič, Martin and Varga, Kitti"
->
-  
-  <div class="square square-informal-article"></div>
-  
-  <div class="text-justify">
-    <span><span id="mintoughnesss"><div class="csl-block"><span style="font-weight: 600">Conditions for minimally tough graphs</span></div><div class="csl-block">C. Dallard, B. Fernández, G. Y. Katona, M. Milanič, and K. Varga.</div><div class="csl-block">Oct. 2022.</div></span></span>
-       
-    <span
-      ><a
-        href="https://arxiv.org/abs/2210.00383"
-        title="arXiv"
-        ><img
-          class="small-logo"
-          src="https://avatars3.githubusercontent.com/u/45442578" /></a
-    ></span>
-     
-    <button
-      class="btn btn-outline-info"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasRight_mintoughnesss"
-      aria-controls="offcanvasRight"
-    >
-      Abstract
-    </button>
-
-    <div
-      class="offcanvas offcanvas-end adaptive-offcanvas"
-      tabindex="-1"
-      id="offcanvasRight_mintoughnesss"
-      aria-labelledby="offcanvasRightLabel_mintoughnesss"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel_mintoughnesss">
-          Conditions for minimally tough graphs
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">Katona, Soltész, and Varga showed that no induced subgraph can be excluded from the class of minimally tough graphs. In this paper, we consider the opposite question, namely which induced subgraphs, if any, must necessarily be present in each minimally $t$-tough graph.
-                   Katona and Varga showed that for any rational number $t ∈(1/2,1]$, every minimally $t$-tough graph contains a hole. We complement this result by showing that for any rational number $t>1$, every minimally $t$-tough graph must contain either a hole or an induced subgraph isomorphic to the $k$-sun for some integer $k \ge 3$. 
-                   We also show that for any rational number $t > 1/2$, every minimally $t$-tough graph must contain either an induced $4$-cycle, an induced $5$-cycle, or two independent edges as an induced subgraph.</div>
+                We show that the problem is polynomially solvable in the class of triangle-free and Hamiltonian DAGs and also disclose the relationship of this problem with several other models of intersection representations of graphs and digraphs.</div>
     </div>
     
   </div>
@@ -741,130 +941,6 @@
                    First, we give an algorithm that given an $n$-vertex graph $G$ and an integer $k$, in time $2^{O(k^2)} n^{O(k)}$ either outputs a tree decomposition of $G$ with independence number at most $8k$, or determines that the tree-independence number of $G$ is larger than $k$.
                    This implies $2^{O(k^2)} n^{O(k)}$ time algorithms for various problems, like maximum weight independent set, parameterized by tree-independence number $k$ without needing the decomposition as an input.
                    Then, we show that the exact computing of tree-independence number is paraNP-hard, in particular, that for every constant $k \ge 4$ it is NP-hard to decide if a given graph has tree-independence number at most $k$.</div>
-    </div>
-    
-  </div>
-</div>
-</li>
-<li><div
-  class="biblio-item"
-  id="dallard2022secondpaper"
-  data-type="misc"
-  data-year="2022"
-  data-authors="Dallard, Clément and Milanič, Martin and Štorgel, Kenny"
->
-  
-  <div class="square square-informal-article"></div>
-  
-  <div class="text-justify">
-    <span><span id="dallard2022secondpaper"><div class="csl-block"><span style="font-weight: 600">Treewidth versus clique number. III. Tree-independence number of graphs with a forbidden structure</span></div><div class="csl-block">C. Dallard, M. Milanič, and K. Štorgel.</div><div class="csl-block">Jun. 2022.</div></span></span>
-       
-    <span
-      ><a
-        href="https://arxiv.org/abs/2206.15092"
-        title="arXiv"
-        ><img
-          class="small-logo"
-          src="https://avatars3.githubusercontent.com/u/45442578" /></a
-    ></span>
-     
-    <button
-      class="btn btn-outline-info"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasRight_dallard2022secondpaper"
-      aria-controls="offcanvasRight"
-    >
-      Abstract
-    </button>
-
-    <div
-      class="offcanvas offcanvas-end adaptive-offcanvas"
-      tabindex="-1"
-      id="offcanvasRight_dallard2022secondpaper"
-      aria-labelledby="offcanvasRightLabel_dallard2022secondpaper"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel_dallard2022secondpaper">
-          Treewidth versus clique number. III. Tree-independence number of graphs with a forbidden structure
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">We continue the study of $(tw,ω)$-bounded graph classes, that is, hereditary graph classes in which the treewidth can only be large due to the presence of a large clique, with the goal of understanding the extent to which this property has useful algorithmic implications for the Maximum Independent Set and related problems.
-                   
-                   In the previous paper of the series [Dallard, Milanič, and Štorgel, Treewidth versus clique number. II. Tree-independence number], we introduced the <i>tree-independence number</i>, a min-max graph invariant related to tree decompositions.
-                   Bounded tree-independence number implies both $(tw,ω)$-boundedness and the existence of a polynomial-time algorithm for the Maximum Weight Independent Packing problem, provided that the input graph is given together with a tree decomposition with bounded independence number.
-                   In particular, this implies polynomial-time solvability of the Maximum Weight Independent Set problem.
-                   
-                   In this paper, we consider six graph containment relations—the subgraph, topological minor, and minor relations, as well as their induced variants—and for each of them characterize the graphs $H$ for which any graph excluding $H$ with respect to the relation admits a tree decomposition with bounded independence number.
-                   The induced minor relation is of particular interest: we show that excluding either a $K_5$ minus an edge or the $4$-wheel implies the existence of a tree decomposition in which every bag is a clique plus at most $3$ vertices, while excluding a complete bipartite graph $K_{2,q}$ implies the existence of a tree decomposition with independence number at most $2(q-1)$.
-                   
-                   These results are obtained using a variety of tools, including $\ell$-refined tree decompositions, SPQR trees, and potential maximal cliques, and actually show that in the bounded cases identified in this work, one can also compute tree decompositions with bounded independence number efficiently.
-                   Applying the algorithmic framework provided by the previous paper in the series leads to polynomial-time algorithms for the Maximum Weight Independent Set problem in an infinite family of graph classes, each of which properly contains the class of chordal graphs.
-                   In particular, these results apply to the class of $1$-perfectly orientable graphs, answering a question of Beisegel, Chudnovsky, Gurvich, Milanič, and Servatius from 2019.</div>
-    </div>
-    
-  </div>
-</div>
-</li>
-<li><div
-  class="biblio-item"
-  id="kcomstruct"
-  data-type="misc"
-  data-year="2022"
-  data-authors="Baghirova, Narmina and Dallard, Clément and Ries, Bernard and Schindl, David"
->
-  
-  <div class="square square-informal-article"></div>
-  
-  <div class="text-justify">
-    <span><span id="kcomstruct"><div class="csl-block"><span style="font-weight: 600">Finding $k$-community structures in special graph classes</span></div><div class="csl-block">N. Baghirova, C. Dallard, B. Ries, and D. Schindl.</div><div class="csl-block">Jun. 2022.</div></span></span>
-       
-    <span
-      ><a
-        href="https://arxiv.org/abs/2206.14738"
-        title="arXiv"
-        ><img
-          class="small-logo"
-          src="https://avatars3.githubusercontent.com/u/45442578" /></a
-    ></span>
-     
-    <button
-      class="btn btn-outline-info"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasRight_kcomstruct"
-      aria-controls="offcanvasRight"
-    >
-      Abstract
-    </button>
-
-    <div
-      class="offcanvas offcanvas-end adaptive-offcanvas"
-      tabindex="-1"
-      id="offcanvasRight_kcomstruct"
-      aria-labelledby="offcanvasRightLabel_kcomstruct"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel_kcomstruct">
-          Finding $k$-community structures in special graph classes
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-  For a fixed integer $k\ge 2$, a <i>$k$-community structure</i> in an undirected graph is a partition of its vertex set into $k$ sets called <i>communities</i>, each of size at least two, such that every vertex of the graph has proportionally at least as many neighbours in its own community as in any other community. In this paper, we give a necessary and sufficient condition for a forest on $n$ vertices to admit a $k$-community structure. Furthermore, we provide an $\mathcal{O}(n^{2})$-time algorithm that computes such a $k$-community structure in a forest, if it exists.
-	These results extend a result of [Bazgan et al., Structural and algorithmic properties of $2$-community structure, Algorithmica, 80(6):1890-1908, 2018].
-	We also show that if communities are allowed to have size one, then every forest with $n ≥k≥2$ vertices admits a $k$-community structure that can be found in time $\mathcal{O}(n^{2})$. We then consider threshold graphs and show that every connected threshold graph admits a $2$-community structure if and only if it is not isomorphic to a star; also if such a $2$-community structure exists, we explain how to obtain it in linear time. We further describe two infinite families of disconnected threshold graphs, containing exactly one isolated vertex, that do not admit any $2$-community structure. Finally, we present a new infinite family of connected graphs that may contain an even or an odd number of vertices without $2$-community structures, even if communities are allowed to have size one.</div>
     </div>
     
   </div>
@@ -984,30 +1060,30 @@
         ></button>
       </div>
       <div class="offcanvas-body">A moplex is a natural graph structure that arises when lifting Dirac’s
-               classical theorem from chordal graphs to general graphs. However, while every
-               non-complete graph has at least two moplexes, little is known about structural
-               properties of graphs with a bounded number of moplexes. The study of these
-               graphs is motivated by the parallel between moplexes in general graphs and
-               simplicial modules in chordal graphs: Unlike in the moplex setting, properties
-               of chordal graphs with a bounded number of simplicial modules are well
-               understood. For instance, chordal graphs having at most two simplicial modules
-               are interval. In this work we initiate an investigation of $k$-moplex graphs,
-               which are defined as graphs containing at most $k$ moplexes. Of particular
-               interest is the smallest nontrivial case $k=2$, which forms a counterpart to
-               the class of interval graphs. As our main structural result, we show that the
-               class of connected $2$-moplex graphs is sandwiched between the classes of
-               proper interval graphs and cocomparability graphs; moreover, both inclusions
-               are tight for hereditary classes. From a complexity theoretic viewpoint, this
-               leads to the natural question of whether the presence of at most two moplexes
-               guarantees a sufficient amount of structure to efficiently solve problems that
-               are known to be intractable on cocomparability graphs, but not on proper
-               interval graphs. We develop new reductions that answer this question negatively
-               for two prominent problems fitting this profile, namely Graph Isomorphism and
-               Max-Cut. On the other hand, we prove that every connected $2$-moplex graph
-               contains a Hamiltonian path, generalising the same property of connected proper
-               interval graphs. Furthermore, for graphs with a higher number of moplexes, we
-               lift the previously known result that graphs without asteroidal triples have at
-               most two moplexes to the more general setting of larger asteroidal sets.</div>
+                classical theorem from chordal graphs to general graphs. However, while every
+                non-complete graph has at least two moplexes, little is known about structural
+                properties of graphs with a bounded number of moplexes. The study of these
+                graphs is motivated by the parallel between moplexes in general graphs and
+                simplicial modules in chordal graphs: Unlike in the moplex setting, properties
+                of chordal graphs with a bounded number of simplicial modules are well
+                understood. For instance, chordal graphs having at most two simplicial modules
+                are interval. In this work we initiate an investigation of $k$-moplex graphs,
+                which are defined as graphs containing at most $k$ moplexes. Of particular
+                interest is the smallest nontrivial case $k=2$, which forms a counterpart to
+                the class of interval graphs. As our main structural result, we show that the
+                class of connected $2$-moplex graphs is sandwiched between the classes of
+                proper interval graphs and cocomparability graphs; moreover, both inclusions
+                are tight for hereditary classes. From a complexity theoretic viewpoint, this
+                leads to the natural question of whether the presence of at most two moplexes
+                guarantees a sufficient amount of structure to efficiently solve problems that
+                are known to be intractable on cocomparability graphs, but not on proper
+                interval graphs. We develop new reductions that answer this question negatively
+                for two prominent problems fitting this profile, namely Graph Isomorphism and
+                Max-Cut. On the other hand, we prove that every connected $2$-moplex graph
+                contains a Hamiltonian path, generalising the same property of connected proper
+                interval graphs. Furthermore, for graphs with a higher number of moplexes, we
+                lift the previously known result that graphs without asteroidal triples have at
+                most two moplexes to the more general setting of larger asteroidal sets.</div>
     </div>
     
   </div>
@@ -1062,10 +1138,10 @@
         ></button>
       </div>
       <div class="offcanvas-body">We consider the task of allocating indivisible items to agents, when each agent’s preferences are captured by means of a directed acyclic graph. 
-               The vertices of such a graph represent items and an arc $(a,b)$ means that the respective agent prefers item $a$ over item $b$. 
-               The dissatisfaction of an agent is measured by the number of non-assigned items which are desired by the agent and for which no more preferred item is given to the agent.
-               The aim is to allocate the items to the agents in a way that minimizes (i) the total dissatisfaction over all agents, or (ii) the maximum dissatisfaction among the agents. 
-               For both problems we study the status of computational complexity  and obtain NP-hardness results as well as polynomial algorithms with respect to different underlying graph structures, such as trees, stars, paths, and matchings.</div>
+                The vertices of such a graph represent items and an arc $(a,b)$ means that the respective agent prefers item $a$ over item $b$. 
+                The dissatisfaction of an agent is measured by the number of non-assigned items which are desired by the agent and for which no more preferred item is given to the agent.
+                The aim is to allocate the items to the agents in a way that minimizes (i) the total dissatisfaction over all agents, or (ii) the maximum dissatisfaction among the agents. 
+                For both problems we study the status of computational complexity  and obtain NP-hardness results as well as polynomial algorithms with respect to different underlying graph structures, such as trees, stars, paths, and matchings.</div>
     </div>
     
   </div>
@@ -1292,77 +1368,9 @@
         ></button>
       </div>
       <div class="offcanvas-body">The question of characterizing graphs $H$ such that the <font style="font-variant: small-caps">Vertex Cover</font> problem is solvable in polynomial time in the class of $H$-free graphs is notoriously difficult and still widely open.
-               We completely solve the corresponding question for a distance-based generalization of <font style="font-variant: small-caps">Vertex Cover</font> called <font style="font-variant: small-caps">Distance-$k$ Vertex Cover</font>, for any positive integer $k$.
-               In this problem the task is to determine, given a graph $G$ and an integer $\ell$, whether $G$ contains a set of at most $\ell$ vertices such that each edge of $G$ is at distance at most $k$ from a vertex in the set.
-               We show that for all $k \ge 1$ and all graphs $H$, the <font style="font-variant: small-caps">Distance-$k$ Vertex Cover</font> problem is solvable in polynomial time in the class of $H$-free graphs if $H$ is an induced subgraph of $P_{2k+2} + sP_{\max\{k,2\}}$ for some $s \ge 0$, and NP-complete otherwise.</div>
-    </div>
-    
-  </div>
-</div>
-</li>
-<li><div
-  class="biblio-item"
-  id="dallard2021moplexes"
-  data-type="misc"
-  data-year="2021"
-  data-authors="Dallard, Clément and Ganian, Robert and Hatzel, Meike and Krnc, Matjaž and Milanič, Martin"
->
-  
-  <div class="square square-informal-article"></div>
-  
-  <div class="text-justify">
-    <span><span id="dallard2021moplexes"><div class="csl-block"><span style="font-weight: 600">Graphs with at most two moplexes</span></div><div class="csl-block">C. Dallard, R. Ganian, M. Hatzel, M. Krnc, and M. Milanič.</div><div class="csl-block">Jun. 2021.</div></span></span>
-       
-    <span
-      ><a
-        href="https://arxiv.org/abs/2106.10049"
-        title="arXiv"
-        ><img
-          class="small-logo"
-          src="https://avatars3.githubusercontent.com/u/45442578" /></a
-    ></span>
-     
-    <button
-      class="btn btn-outline-info"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasRight_dallard2021moplexes"
-      aria-controls="offcanvasRight"
-    >
-      Abstract
-    </button>
-
-    <div
-      class="offcanvas offcanvas-end adaptive-offcanvas"
-      tabindex="-1"
-      id="offcanvasRight_dallard2021moplexes"
-      aria-labelledby="offcanvasRightLabel_dallard2021moplexes"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel_dallard2021moplexes">
-          Graphs with at most two moplexes
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">A moplex is a natural graph structure that arises when lifting Dirac’s classical theorem from chordal graphs to general graphs.
-                   The notion is known to be closely related to lexicographic searches in graphs as well as to asteroidal triples, and has been applied in several algorithms related to graph classes such as interval graphs, claw-free, and diamond-free graphs.
-                   However, while every non-complete graph has at least two moplexes, little is known about structural properties of graphs with a bounded number of moplexes.
-                   The study of these graphs is, in part, motivated by the parallel between moplexes in general graphs and simplicial modules in chordal graphs: unlike in the moplex setting, properties of chordal graphs with a bounded number of simplicial modules are well understood.
-                   For instance, chordal graphs having at most two simplicial modules are interval.
-                   
-                   In this work we initiate an investigation of $k$-moplex graphs, which are defined as graphs containing at most $k$ moplexes.
-                   Of particular interest is the smallest nontrivial case $k=2$, which forms a counterpart to the class of interval graphs. 
-                   As our main structural result, we show that, when restricted to connected graphs, the class of $2$-moplex graphs is sandwiched between the classes of proper interval graphs and cocomparability graphs; moreover, both inclusions are tight for hereditary classes.
-                   From a complexity theoretic viewpoint, this leads to the natural question of whether the presence of at most two moplexes guarantees a sufficient amount of structure to efficiently solve problems that are known to be intractable on cocomparability graphs, but not on proper interval graphs.
-                   We develop new reductions that answer this question negatively for two prominent problems fitting this profile, namely <font style="font-variant: small-caps">Graph Isomorphism</font> and <font style="font-variant: small-caps">Max-Cut</font>.
-                   On the other hand, we prove that every connected $2$-moplex graph contains a Hamiltonian path, generalising the same property of connected proper interval graphs.
-                   Furthermore, for graphs with a higher number of moplexes, we lift the previously known result that graphs without asteroidal triples have at most two moplexes to the more general setting of larger asteroidal sets.
-                   </div>
+                We completely solve the corresponding question for a distance-based generalization of <font style="font-variant: small-caps">Vertex Cover</font> called <font style="font-variant: small-caps">Distance-$k$ Vertex Cover</font>, for any positive integer $k$.
+                In this problem the task is to determine, given a graph $G$ and an integer $\ell$, whether $G$ contains a set of at most $\ell$ vertices such that each edge of $G$ is at distance at most $k$ from a vertex in the set.
+                We show that for all $k \ge 1$ and all graphs $H$, the <font style="font-variant: small-caps">Distance-$k$ Vertex Cover</font> problem is solvable in polynomial time in the class of $H$-free graphs if $H$ is an induced subgraph of $P_{2k+2} + sP_{\max\{k,2\}}$ for some $s \ge 0$, and NP-complete otherwise.</div>
     </div>
     
   </div>
@@ -1419,19 +1427,19 @@
         ></button>
       </div>
       <div class="offcanvas-body">In the <font style="font-variant: small-caps">Token Jumping</font> problem we are given a graph $G = (V,E)$ and two independent sets $S$ and $T$ of $G$, each of size $k ≥1$.
-               The goal is to determine whether there exists a sequence of $k$-sized independent sets in $G$, $⟨S_0, S_1, \ldots, S_\ell ⟩$, such that for every $i$,
-               $|S_i| = k$, $S_i$ is an independent set, $S = S_0$, $S_\ell = T$, and $|S_i ∆S_{i+1}| = 2$.
-               In other words, if we view each independent set as a collection of tokens placed on a subset
-               of the vertices of $G$, then the problem asks for a sequence of independent sets which transforms $S$ to $T$ by individual token jumps which
-               maintain the independence of the sets. This problem is known to be PSPACE-complete on very restricted graph classes, e.g., planar bounded degree graphs and graphs of
-               bounded bandwidth. A closely related problem is the <font style="font-variant: small-caps">Token Sliding</font> problem, where instead of allowing a token to jump to any vertex of the graph we instead
-               require that a token slides along an edge of the graph. <font style="font-variant: small-caps">Token Sliding</font> is also known to be PSPACE-complete on the aforementioned graph classes.
-               We investigate the parameterized complexity of both problems on several graph classes, focusing on the effect of excluding certain cycles from the input graph.
-               In particular, we show that both <font style="font-variant: small-caps">Token Sliding</font> and <font style="font-variant: small-caps">Token Jumping</font> are fixed-parameter tractable on $C_4$-free bipartite graphs when parameterized by $k$.
-               For <font style="font-variant: small-caps">Token Jumping</font>, we in fact show that the problem admits a polynomial kernel on $\{C_3,C_4\}$-free graphs. In the case of <font style="font-variant: small-caps">Token Sliding</font>, we also
-               show that the problem admits a polynomial kernel on bipartite graphs of bounded degree. We believe both of these results to be of independent interest.
-               We complement these positive results by showing that, for any constant $p ≥4$, both problems are W[1]-hard on $\{C_4, …, C_p\}$-free graphs
-               and <font style="font-variant: small-caps">Token Sliding</font> remains W[1]-hard even on bipartite graphs.</div>
+                The goal is to determine whether there exists a sequence of $k$-sized independent sets in $G$, $⟨S_0, S_1, \ldots, S_\ell ⟩$, such that for every $i$,
+                $|S_i| = k$, $S_i$ is an independent set, $S = S_0$, $S_\ell = T$, and $|S_i ∆S_{i+1}| = 2$.
+                In other words, if we view each independent set as a collection of tokens placed on a subset
+                of the vertices of $G$, then the problem asks for a sequence of independent sets which transforms $S$ to $T$ by individual token jumps which
+                maintain the independence of the sets. This problem is known to be PSPACE-complete on very restricted graph classes, e.g., planar bounded degree graphs and graphs of
+                bounded bandwidth. A closely related problem is the <font style="font-variant: small-caps">Token Sliding</font> problem, where instead of allowing a token to jump to any vertex of the graph we instead
+                require that a token slides along an edge of the graph. <font style="font-variant: small-caps">Token Sliding</font> is also known to be PSPACE-complete on the aforementioned graph classes.
+                We investigate the parameterized complexity of both problems on several graph classes, focusing on the effect of excluding certain cycles from the input graph.
+                In particular, we show that both <font style="font-variant: small-caps">Token Sliding</font> and <font style="font-variant: small-caps">Token Jumping</font> are fixed-parameter tractable on $C_4$-free bipartite graphs when parameterized by $k$.
+                For <font style="font-variant: small-caps">Token Jumping</font>, we in fact show that the problem admits a polynomial kernel on $\{C_3,C_4\}$-free graphs. In the case of <font style="font-variant: small-caps">Token Sliding</font>, we also
+                show that the problem admits a polynomial kernel on bipartite graphs of bounded degree. We believe both of these results to be of independent interest.
+                We complement these positive results by showing that, for any constant $p ≥4$, both problems are W[1]-hard on $\{C_4, …, C_p\}$-free graphs
+                and <font style="font-variant: small-caps">Token Sliding</font> remains W[1]-hard even on bipartite graphs.</div>
     </div>
     
   </div>
@@ -1486,7 +1494,7 @@
         ></button>
       </div>
       <div class="offcanvas-body">Treewidth is an important graph invariant, relevant for both structural and algorithmic reasons. A necessary condition for a graph class to have bounded treewidth is the absence of large cliques. We study graph classes in which this condition is also sufficient, which we call $(tw,ω)$-bounded. Such graph classes are known to have useful algorithmic applications related to variants of the clique and $k$-coloring problems.
-               We consider six well-known graph containment relations: the minor, topological minor, subgraph, induced minor, induced topological minor, and induced subgraph relations. For each of them, we give a complete characterization of the graphs $H$ for which the class of graphs excluding $H$ is $(tw,ω)$-bounded. Our results imply that the class of $1$-perfectly orientable graphs is $(tw,ω)$-bounded, answering a question of Brešar, Hartinger, Kos, and Milanič from 2018. We also reveal some further algorithmic implications of $(tw,ω)$-boundedness related to list $k$-coloring and clique problems.</div>
+                We consider six well-known graph containment relations: the minor, topological minor, subgraph, induced minor, induced topological minor, and induced subgraph relations. For each of them, we give a complete characterization of the graphs $H$ for which the class of graphs excluding $H$ is $(tw,ω)$-bounded. Our results imply that the class of $1$-perfectly orientable graphs is $(tw,ω)$-bounded, answering a question of Brešar, Hartinger, Kos, and Milanič from 2018. We also reveal some further algorithmic implications of $(tw,ω)$-boundedness related to list $k$-coloring and clique problems.</div>
     </div>
     
   </div>
@@ -1643,7 +1651,7 @@
   
   <div class="text-justify">
     <span><span id="MR3991231"><div class="csl-block"><span style="font-weight: 600">Towards a complexity dichotomy for colourful components
-               problems on $k$-caterpillars and small-degree planar graphs</span></div><div class="csl-block">J. Chlebíková and C. Dallard.</div><div class="csl-block">In Combinatorial algorithms (IWOCA), Jul. 2019.</div></span></span>
+                problems on $k$-caterpillars and small-degree planar graphs</span></div><div class="csl-block">J. Chlebíková and C. Dallard.</div><div class="csl-block">In Combinatorial algorithms (IWOCA), Jul. 2019.</div></span></span>
      
     <span
       ><a href="https://doi.org/10.1007/978-3-030-25005-8_12" title="DOI"
@@ -1672,7 +1680,7 @@
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel_MR3991231">
           Towards a complexity dichotomy for colourful components
-               problems on $k$-caterpillars and small-degree planar graphs
+                problems on $k$-caterpillars and small-degree planar graphs
         </h5>
         <button
           type="button"
@@ -1682,15 +1690,15 @@
         ></button>
       </div>
       <div class="offcanvas-body">    A connected component of a vertex-coloured graph is said to be <i>colourful</i> if all its vertices have different colours, and a graph is colourful if all its connected components are colourful.
-               Given a vertex-coloured graph, the <font style="font-variant: small-caps">Colourful Components</font> problem asks whether there exist at most $p$ edges whose removal makes the graph colourful, and the <font style="font-variant: small-caps">Colourful Partition</font> problem asks whether there exists a partition of the vertex set with at most $p$ parts such that each part induces a colourful component.
-               We study the problems on $k$-caterpillars (caterpillars with hairs of length at most $k$) and explore the boundary between polynomial and NP-complete cases.
-               It is known that the problems are NP-complete on $2$-caterpillars with unbounded maximum degree.
-               We prove that both problems remain NP-complete on binary $4$-caterpillars and on ternary $3$-caterpillars.
-               This answers an open question regarding the complexity of the problems on trees with maximum degree at most $5$.
-               On the positive side, we give a linear time algorithm for $1$-caterpillars with unbounded degree, even if the backbone is a cycle, which outperforms the previous best complexity for paths and widens the class of graphs.
-               Finally, we answer an open question regarding the complexity of <font style="font-variant: small-caps">Colourful Components</font> on graphs with maximum degree at most $5$.
-               We show that the problem is NP-complete on $5$-coloured planar graphs with maximum degree $4$, and on $12$-coloured planar graphs with maximum degree $3$.
-               Since the problem can be solved in polynomial-time on graphs with maximum degree $2$, the results are the best possible with regard to the maximum degree.</div>
+                Given a vertex-coloured graph, the <font style="font-variant: small-caps">Colourful Components</font> problem asks whether there exist at most $p$ edges whose removal makes the graph colourful, and the <font style="font-variant: small-caps">Colourful Partition</font> problem asks whether there exists a partition of the vertex set with at most $p$ parts such that each part induces a colourful component.
+                We study the problems on $k$-caterpillars (caterpillars with hairs of length at most $k$) and explore the boundary between polynomial and NP-complete cases.
+                It is known that the problems are NP-complete on $2$-caterpillars with unbounded maximum degree.
+                We prove that both problems remain NP-complete on binary $4$-caterpillars and on ternary $3$-caterpillars.
+                This answers an open question regarding the complexity of the problems on trees with maximum degree at most $5$.
+                On the positive side, we give a linear time algorithm for $1$-caterpillars with unbounded degree, even if the backbone is a cycle, which outperforms the previous best complexity for paths and widens the class of graphs.
+                Finally, we answer an open question regarding the complexity of <font style="font-variant: small-caps">Colourful Components</font> on graphs with maximum degree at most $5$.
+                We show that the problem is NP-complete on $5$-coloured planar graphs with maximum degree $4$, and on $12$-coloured planar graphs with maximum degree $3$.
+                Since the problem can be solved in polynomial-time on graphs with maximum degree $2$, the results are the best possible with regard to the maximum degree.</div>
     </div>
     
   </div>
@@ -1745,12 +1753,12 @@
         ></button>
       </div>
       <div class="offcanvas-body">The Dial-a-Ride problem may contain various constraints for pickup-delivery requests, such as time windows and  ride time constraints.
-               For a tour, given as a sequence of pickup and delivery stops, there exist polynomial time algorithms to find a schedule respecting these constraints, provided that there exists one.
-               However, if no feasible schedule exists, the natural question is to find a schedule minimising constraint violations.
-               We model a generic fixed-sequence scheduling problem, allowing lateness and ride time violations with linear penalty functions and prove its APX-hardness.
-               We also present an approach leading to a polynomial time algorithm if only the time window constraints can be violated (by late visits).
-               Then, we show that the problem can be solved in polynomial time if all the ride time constraints are bounded by a constant.
-               Lastly, we give a polynomial time algorithm for the instances where all the pickups precede all the deliveries in the sequence of stops.</div>
+                For a tour, given as a sequence of pickup and delivery stops, there exist polynomial time algorithms to find a schedule respecting these constraints, provided that there exists one.
+                However, if no feasible schedule exists, the natural question is to find a schedule minimising constraint violations.
+                We model a generic fixed-sequence scheduling problem, allowing lateness and ride time violations with linear penalty functions and prove its APX-hardness.
+                We also present an approach leading to a polynomial time algorithm if only the time window constraints can be violated (by late visits).
+                Then, we show that the problem can be solved in polynomial time if all the ride time constraints are bounded by a constant.
+                Lastly, we give a polynomial time algorithm for the instances where all the pickups precede all the deliveries in the sequence of stops.</div>
     </div>
     
   </div>
@@ -1831,7 +1839,7 @@
   
   <div class="text-justify">
     <span><span id="MR3614403"><div class="csl-block"><span style="font-weight: 600">Instance guaranteed ratio on greedy heuristic for genome
-               scaffolding</span></div><div class="csl-block">C. Dallard, M. Weller, A. Chateau, and R. Giroudeau.</div><div class="csl-block">In Combinatorial optimization and applications (COCOA), Oct. 2016.</div></span></span>
+                scaffolding</span></div><div class="csl-block">C. Dallard, M. Weller, A. Chateau, and R. Giroudeau.</div><div class="csl-block">In Combinatorial optimization and applications (COCOA), Oct. 2016.</div></span></span>
      
     <span
       ><a href="https://doi.org/10.1007/978-3-319-48749-6_22" title="DOI"
@@ -1860,7 +1868,7 @@
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel_MR3614403">
           Instance guaranteed ratio on greedy heuristic for genome
-               scaffolding
+                scaffolding
         </h5>
         <button
           type="button"
