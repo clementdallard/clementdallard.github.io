@@ -12434,7 +12434,17 @@ pre {
 }
 
 html {
-  font-size: 18px;
+  font-size: 19px;
+}
+
+body {
+  font-weight: 400;
+}
+
+.navbar {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0px;
 }
 
 span a {
@@ -12597,15 +12607,7 @@ span a {
   margin-bottom: 1rem;
   padding: 0.5rem;
   border: 1px solid #aaa;
-  --random-horizontal-1: 50px;
-  --random-horizontal-2: 20px;
-  --random-horizontal-3: 30px;
-  --random-horizontal-4: 55px;
-  --random-vertical-1: 20px;
-  --random-vertical-2: 50px;
-  --random-vertical-3: 140px;
-  --random-vertical-4: 100px;
-  border-radius: var(--random-horizontal-1) var(--random-horizontal-2) var(--random-horizontal-3) var(--random-horizontal-4)/var(--random-vertical-1) var(--random-vertical-2) var(--random-vertical-3) var(--random-vertical-4);
+  border-radius: 55px 225px 45px 25px/25px 25px 355px 355px;
   background-color: #f8f9fa;
 }
 .bibliography .square {
