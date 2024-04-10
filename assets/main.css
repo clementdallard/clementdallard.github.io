@@ -11881,6 +11881,7 @@ textarea.form-control-lg {
   font-family: "Cabin Sketch", cursive;
   font-weight: 400;
   text-decoration: none;
+  color: var(--bs-primary-bg-subtle);
 }
 
 .btn {
@@ -12443,8 +12444,9 @@ body {
 
 .navbar {
   border-style: solid;
-  border-width: 2px;
-  border-radius: 0px;
+  border-width: 1px;
+  border-color: var(--bs-tertiary-color);
+  border-radius: 0px 0px 75px 0px/0px 0px 30px 0px;
 }
 
 span a {
@@ -12541,17 +12543,17 @@ span a {
 }
 #authors-list li:not(.clear-all-link) a,
 #types-list li:not(.clear-all-link) a {
-  color: #000;
+  color: var(--bs-secondary-color);
   text-decoration: none;
 }
 #authors-list li:not(.clear-all-link) a.selected,
 #types-list li:not(.clear-all-link) a.selected {
-  color: #0066cc;
+  color: #fff;
   font-weight: 600;
 }
 #authors-list li:not(.clear-all-link) a:hover,
 #types-list li:not(.clear-all-link) a:hover {
-  color: #0066cc;
+  color: #fff;
 }
 #authors-list li:not(.clear-all-link) a:hover:before,
 #types-list li:not(.clear-all-link) a:hover:before {
@@ -12571,7 +12573,7 @@ span a {
 }
 #authors-list li.clear-all-link a,
 #types-list li.clear-all-link a {
-  color: #555;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -12606,9 +12608,9 @@ span a {
   gap: 12px;
   margin-bottom: 1rem;
   padding: 0.5rem;
-  border: 1px solid #aaa;
+  border: 1px solid var(--bs-tertiary-color);
   border-radius: 55px 225px 45px 25px/25px 25px 355px 355px;
-  background-color: #f8f9fa;
+  background-color: var(--bs-secondary-bg);
 }
 .bibliography .square {
   margin-top: 4px;
