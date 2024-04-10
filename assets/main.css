@@ -12548,12 +12548,12 @@ span a {
 }
 #authors-list li:not(.clear-all-link) a.selected,
 #types-list li:not(.clear-all-link) a.selected {
-  color: #fff;
+  color: #333;
   font-weight: 600;
 }
 #authors-list li:not(.clear-all-link) a:hover,
 #types-list li:not(.clear-all-link) a:hover {
-  color: #fff;
+  color: #333;
 }
 #authors-list li:not(.clear-all-link) a:hover:before,
 #types-list li:not(.clear-all-link) a:hover:before {
@@ -12573,7 +12573,7 @@ span a {
 }
 #authors-list li.clear-all-link a,
 #types-list li.clear-all-link a {
-  color: #fff;
+  color: #333;
   font-weight: 600;
 }
 
