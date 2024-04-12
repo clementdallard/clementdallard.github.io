@@ -12449,8 +12449,14 @@ body {
   border-radius: 0px 0px 75px 0px/0px 0px 30px 0px;
 }
 
-span a {
-  font-style: italic;
+.main-content a {
+  position: relative;
+  padding: 2px;
+  margin: -2px;
+}
+.main-content a:hover {
+  background-color: var(--bs-info-bg-subtle);
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
 }
 
 .text-arxiv {
@@ -12539,7 +12545,7 @@ span a {
   margin-bottom: 0.5rem;
   line-height: 1em;
   position: relative;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 #authors-list li:not(.clear-all-link) a,
 #types-list li:not(.clear-all-link) a {
@@ -12554,6 +12560,8 @@ span a {
 #authors-list li:not(.clear-all-link) a:hover,
 #types-list li:not(.clear-all-link) a:hover {
   color: #333;
+  background-color: var(--bs-info-bg-subtle);
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
 }
 #authors-list li:not(.clear-all-link) a:hover:before,
 #types-list li:not(.clear-all-link) a:hover:before {
@@ -12561,15 +12569,16 @@ span a {
   position: absolute;
   left: 0;
   top: 0;
-  text-indent: 0.75rem;
 }
 #authors-list li:not(.clear-all-link) a:hover:not(.selected):before,
 #types-list li:not(.clear-all-link) a:hover:not(.selected):before {
   content: "(+)";
+  margin-left: -1rem;
 }
 #authors-list li:not(.clear-all-link) a:hover.selected:before,
 #types-list li:not(.clear-all-link) a:hover.selected:before {
   content: "(-)";
+  margin-left: -1rem;
 }
 #authors-list li.clear-all-link a,
 #types-list li.clear-all-link a {
@@ -12610,7 +12619,7 @@ span a {
   padding: 0.5rem;
   border: 1px solid var(--bs-tertiary-color);
   border-radius: 55px 225px 45px 25px/25px 25px 355px 355px;
-  background-color: var(--bs-secondary-bg);
+  background-color: var(--bs-tertiary-bg);
 }
 .bibliography .square {
   margin-top: 4px;
