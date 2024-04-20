@@ -37,9 +37,35 @@
       });
     });
   </script>
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text);
+
+      // Get the button elements
+      const copyButton = document.getElementById("copy-button-text");
+      const copiedButton = document.getElementById("copied-button-text");
+
+      // Show the "Copied!" text and hide the "Copy" text
+      copyButton.style.display = "none";
+      copiedButton.style.display = "inline-block";
+
+      // Change the button color
+      copyButton.classList.remove("btn-outline-secondary");
+      copyButton.classList.add("btn-success");
+
+      // Reset the button after 1 second
+      setTimeout(() => {
+        copyButton.style.display = "inline-block";
+        copiedButton.style.display = "none";
+
+        copyButton.classList.remove("btn-success");
+        copyButton.classList.add("btn-outline-secondary");
+      }, 1000);
+    }
+  </script>
 </head>
-<body><header class="navbar navbar-expand-lg bg-dark sticky-top">
-  <nav class="container bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+<body><header class="navbar navbar-expand-lg navbar-expand-md bg-dark sticky-top">
+  <nav class="container flex-wrap flex-lg-nowrap" aria-label="Main navigation">
     <div class="navbar-brand">Clément Dallard</div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
@@ -71,8 +97,8 @@
     </div>
   </nav>
 </header><!-- <title>Clément Dallard</title> -->
-	<div class="main-content container col-lg-6 col-md-8 col-sm-12">	
-		<div class="row">
+	<div class="main-content container col-lg-8 col-md-11 col-sm-12">	
+			<div class="row">
   <div class="container mt-3 my-md-4">	
     <h2>About me</h2>
 <div class="row">
@@ -89,8 +115,7 @@
     <p>
       My research interests lie within the fields of structural and algorithmic
       graph theory, in particular graph invariants and graph classes.
-    </p>
-  </div>
+    </p><p>Contact: <a href="mailto:clement.dallard@unifr.ch"> clement.dallard@unifr.ch </a></p></div>
   <div class="col-lg-auto col-md-auto col-sm-12 text-center">
     <img
       src="assets/images/portrait-bw.jpg"
@@ -137,22 +162,19 @@
 <h2>Previous positions</h2>
 <ul>
   <li>
-    From September 2023 to January 2024: teaching and research associate at
-    the
+    From September 2023 to January 2024: teaching and research associate at the
     <a
       href="https://www.ens-lyon.fr/en/research/research-units/laboratories/laboratoire-de-linformatique-du-parallelisme"
       >LIP</a
     >,
-    <a href="https://www.ens-lyon.fr/en/"
-      >École Normale Supérieure de Lyon</a
-    >, France.
+    <a href="https://www.ens-lyon.fr/en/">École Normale Supérieure de Lyon</a>,
+    France.
   </li>
   <li>
-    From September 2022 to August 2023, I was a teaching and research
-    associate at
+    From September 2022 to August 2023, I was a teaching and research associate
+    at
     <a href="https://www.univ-orleans.fr/lifo/?lang=en">LIFO</a>,
-    <a href="https://www.univ-orleans.fr/en">University of Orléans</a>,
-    France.
+    <a href="https://www.univ-orleans.fr/en">University of Orléans</a>, France.
   </li>
   <li>
     From October 2019 to August 2022, I was a postdoctoral researcher at
@@ -165,35 +187,23 @@
   </li>
   <li>
     From October 2016 to September 2019, I was a PhD student at the
-    <a href="http://www.port.ac.uk/">University of Portsmouth</a>, UK, under
-    the supervision of
+    <a href="http://www.port.ac.uk/">University of Portsmouth</a>, UK, under the
+    supervision of
     <a
       href="https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/janka-chlebikova"
       >Dr Janka Chlebíková</a
     >.
   </li>
 </ul>
-  </div>
-</div>
 
-	</div>
 <div class="py-5 border-top">
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>Clément Dallard</li><li>
-              <a href="mailto:clement.dallard@unifr.ch">
-                clement.dallard@unifr.ch
-              </a>
-            </li></ul>
-      </div>
+  <div class="container"></div>
+</div>
 
   </div>
 </div>
-<script src="/assets/vendor/jquery-rails/javascripts/jquery3.min.js"></script>
+
+	</div><script src="/assets/vendor/jquery-rails/javascripts/jquery3.min.js"></script>
   <script src="/assets/vendor/popper.js/javascripts/popper.js"></script>
   <script src="/assets/vendor/bootstrap/javascripts/bootstrap.min.js"></script>
 	<script>
