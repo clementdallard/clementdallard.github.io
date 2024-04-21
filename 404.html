@@ -38,28 +38,18 @@
     });
   </script>
   <script>
-    function copyToClipboard(text) {
-      navigator.clipboard.writeText(text);
+    function copyBibTex(bibtex_key) {
+      var bibtex = document.getElementById('bibtex-' + bibtex_key).innerText;
+      navigator.clipboard.writeText(bibtex);
+      var copyButton = document.getElementById("copy-button-text-" + bibtex_key);
+      var copiedButton = document.getElementById("copied-button-text-" + bibtex_key);
 
-      // Get the button elements
-      const copyButton = document.getElementById("copy-button-text");
-      const copiedButton = document.getElementById("copied-button-text");
-
-      // Show the "Copied!" text and hide the "Copy" text
       copyButton.style.display = "none";
       copiedButton.style.display = "inline-block";
 
-      // Change the button color
-      copyButton.classList.remove("btn-outline-secondary");
-      copyButton.classList.add("btn-success");
-
-      // Reset the button after 1 second
       setTimeout(() => {
         copyButton.style.display = "inline-block";
         copiedButton.style.display = "none";
-
-        copyButton.classList.remove("btn-success");
-        copyButton.classList.add("btn-outline-secondary");
       }, 1000);
     }
   </script>

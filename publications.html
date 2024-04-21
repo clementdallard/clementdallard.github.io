@@ -38,28 +38,18 @@
     });
   </script>
   <script>
-    function copyToClipboard(text) {
-      navigator.clipboard.writeText(text);
+    function copyBibTex(bibtex_key) {
+      var bibtex = document.getElementById('bibtex-' + bibtex_key).innerText;
+      navigator.clipboard.writeText(bibtex);
+      var copyButton = document.getElementById("copy-button-text-" + bibtex_key);
+      var copiedButton = document.getElementById("copied-button-text-" + bibtex_key);
 
-      // Get the button elements
-      const copyButton = document.getElementById("copy-button-text");
-      const copiedButton = document.getElementById("copied-button-text");
-
-      // Show the "Copied!" text and hide the "Copy" text
       copyButton.style.display = "none";
       copiedButton.style.display = "inline-block";
 
-      // Change the button color
-      copyButton.classList.remove("btn-outline-secondary");
-      copyButton.classList.add("btn-success");
-
-      // Reset the button after 1 second
       setTimeout(() => {
         copyButton.style.display = "inline-block";
         copiedButton.style.display = "none";
-
-        copyButton.classList.remove("btn-success");
-        copyButton.classList.add("btn-outline-secondary");
       }, 1000);
     }
   </script>
@@ -275,11 +265,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DMS_JCTB2024').innerText)"
+            onclick="copyBibTex('DMS_JCTB2024')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DMS_JCTB2024">Copy</span>
+            <span id="copied-button-text-DMS_JCTB2024" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -423,11 +413,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DKKMMSW2024').innerText)"
+            onclick="copyBibTex('DKKMMSW2024')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DKKMMSW2024">Copy</span>
+            <span id="copied-button-text-DKKMMSW2024" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -551,11 +541,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DDHMPT2024').innerText)"
+            onclick="copyBibTex('DDHMPT2024')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DDHMPT2024">Copy</span>
+            <span id="copied-button-text-DDHMPT2024" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -697,11 +687,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDDLMMP2024').innerText)"
+            onclick="copyBibTex('CDDLMMP2024')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDDLMMP2024">Copy</span>
+            <span id="copied-button-text-CDDLMMP2024" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -839,11 +829,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDDLMMP2024_1').innerText)"
+            onclick="copyBibTex('CDDLMMP2024_1')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDDLMMP2024_1">Copy</span>
+            <span id="copied-button-text-CDDLMMP2024_1" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -976,11 +966,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DLMSZ_RIM2024').innerText)"
+            onclick="copyBibTex('DLMSZ_RIM2024')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DLMSZ_RIM2024">Copy</span>
+            <span id="copied-button-text-DLMSZ_RIM2024" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -1152,11 +1142,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DMS_JCTB2024_1').innerText)"
+            onclick="copyBibTex('DMS_JCTB2024_1')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DMS_JCTB2024_1">Copy</span>
+            <span id="copied-button-text-DMS_JCTB2024_1" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -1298,11 +1288,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-BDRS2023').innerText)"
+            onclick="copyBibTex('BDRS2023')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-BDRS2023">Copy</span>
+            <span id="copied-button-text-BDRS2023" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -1426,11 +1416,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DFKMV2023').innerText)"
+            onclick="copyBibTex('DFKMV2023')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DFKMV2023">Copy</span>
+            <span id="copied-button-text-DFKMV2023" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -1582,11 +1572,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDDLMMPP_DAM2023').innerText)"
+            onclick="copyBibTex('CDDLMMPP_DAM2023')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDDLMMPP_DAM2023">Copy</span>
+            <span id="copied-button-text-CDDLMMPP_DAM2023" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -1730,11 +1720,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDP_TCS2023').innerText)"
+            onclick="copyBibTex('CDP_TCS2023')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDP_TCS2023">Copy</span>
+            <span id="copied-button-text-CDP_TCS2023" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -1886,11 +1876,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DGHKM2023').innerText)"
+            onclick="copyBibTex('DGHKM2023')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DGHKM2023">Copy</span>
+            <span id="copied-button-text-DGHKM2023" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2029,11 +2019,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDM_ISAAC2022').innerText)"
+            onclick="copyBibTex('CDM_ISAAC2022')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDM_ISAAC2022">Copy</span>
+            <span id="copied-button-text-CDM_ISAAC2022" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2177,11 +2167,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DFGKM2022').innerText)"
+            onclick="copyBibTex('DFGKM2022')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DFGKM2022">Copy</span>
+            <span id="copied-button-text-DFGKM2022" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2341,11 +2331,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CD_TCS2021').innerText)"
+            onclick="copyBibTex('CD_TCS2021')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CD_TCS2021">Copy</span>
+            <span id="copied-button-text-CD_TCS2021" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2492,11 +2482,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DGHKM_LATIN2021').innerText)"
+            onclick="copyBibTex('DGHKM_LATIN2021')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DGHKM_LATIN2021">Copy</span>
+            <span id="copied-button-text-DGHKM_LATIN2021" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2627,11 +2617,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDDLMMPP_ADT2021').innerText)"
+            onclick="copyBibTex('CDDLMMPP_ADT2021')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDDLMMPP_ADT2021">Copy</span>
+            <span id="copied-button-text-CDDLMMPP_ADT2021" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2787,11 +2777,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DMS_SIDMA2021').innerText)"
+            onclick="copyBibTex('DMS_SIDMA2021')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DMS_SIDMA2021">Copy</span>
+            <span id="copied-button-text-DMS_SIDMA2021" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -2955,11 +2945,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-BBDLM_ALGORITHMICA2021').innerText)"
+            onclick="copyBibTex('BBDLM_ALGORITHMICA2021')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-BBDLM_ALGORITHMICA2021">Copy</span>
+            <span id="copied-button-text-BBDLM_ALGORITHMICA2021" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3090,11 +3080,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DKM_IWOCA2021').innerText)"
+            onclick="copyBibTex('DKM_IWOCA2021')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DKM_IWOCA2021">Copy</span>
+            <span id="copied-button-text-DKM_IWOCA2021" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3258,11 +3248,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-BBDLM_ISAAC2020').innerText)"
+            onclick="copyBibTex('BBDLM_ISAAC2020')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-BBDLM_ISAAC2020">Copy</span>
+            <span id="copied-button-text-BBDLM_ISAAC2020" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3398,11 +3388,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DMS_WG2020').innerText)"
+            onclick="copyBibTex('DMS_WG2020')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DMS_WG2020">Copy</span>
+            <span id="copied-button-text-DMS_WG2020" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3543,11 +3533,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-BCD_IPL2020').innerText)"
+            onclick="copyBibTex('BCD_IPL2020')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-BCD_IPL2020">Copy</span>
+            <span id="copied-button-text-BCD_IPL2020" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3693,11 +3683,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-BCDP_DAM2019').innerText)"
+            onclick="copyBibTex('BCDP_DAM2019')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-BCDP_DAM2019">Copy</span>
+            <span id="copied-button-text-BCDP_DAM2019" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3851,11 +3841,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CD_IWOCA2019').innerText)"
+            onclick="copyBibTex('CD_IWOCA2019')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CD_IWOCA2019">Copy</span>
+            <span id="copied-button-text-CD_IWOCA2019" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -3990,11 +3980,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-CDP_CIAC2019').innerText)"
+            onclick="copyBibTex('CDP_CIAC2019')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-CDP_CIAC2019">Copy</span>
+            <span id="copied-button-text-CDP_CIAC2019" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -4132,11 +4122,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-WCDG_ALGORITHMICA2018').innerText)"
+            onclick="copyBibTex('WCDG_ALGORITHMICA2018')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-WCDG_ALGORITHMICA2018">Copy</span>
+            <span id="copied-button-text-WCDG_ALGORITHMICA2018" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
@@ -4281,11 +4271,11 @@
             data-bs-placement="top"
             display="inline-block"
             title="Copy BibTeX"
-            onclick="copyToClipboard(document.getElementById('bibtex-DWCG_COCOA2016').innerText)"
+            onclick="copyBibTex('DWCG_COCOA2016')"
           >
             <i class="bi bi-clipboard"></i>
-            <span id="copy-button-text">Copy</span>
-            <span id="copied-button-text" style="display: none">Copied!</span>
+            <span id="copy-button-text-DWCG_COCOA2016">Copy</span>
+            <span id="copied-button-text-DWCG_COCOA2016" style="display: none">Copied!</span>
           </button>
         </div>
       </div>
