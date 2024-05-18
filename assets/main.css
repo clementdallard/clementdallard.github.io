@@ -12519,20 +12519,23 @@ body {
 }
 
 #authors-panel {
+  padding: 1em;
+  min-width: 245px;
+  margin-right: 2em;
   float: right;
 }
 
 #authors-list,
 #types-list {
   list-style: none;
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 #authors-list li,
 #types-list li {
   margin-bottom: 0.5rem;
   line-height: 1em;
   position: relative;
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 #authors-list li:not(.clear-all-link) a,
 #types-list li:not(.clear-all-link) a {
