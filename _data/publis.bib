@@ -69,6 +69,7 @@
   archiveprefix  = {arXiv},
   eprint         = {2402.08332},
   month          = {06},
+  day            = {22},
   primaryclass   = {math.CO},
   year           = {2024}
 }
@@ -321,46 +322,52 @@
   year          = {2023}
 }
 
-@misc{DFGKM2022,
-  title         = {Computing Tree Decompositions with Small Independence
-                   Number},
-  author        = {Dallard, Clément and Fomin, Fedor V. and Golovach, Petr
-                   A. and Korhonen, Tuukka and Milanič, Martin},
-  abstract      = {The independence number of a tree decomposition is the
-                   maximum of the independence numbers of the subgraphs
-                   induced by its bags. The tree-independence number of a
-                   graph is the minimum independence number of a tree
-                   decomposition of it. Several NP-hard graph problems, like
-                   maximum weight independent set, can be solved in time
-                   $n^{O(k)}$ if the input graph is given with a tree
-                   decomposition of independence number at most $k$. However,
-                   it was an open problem if tree-independence number could be
-                   computed or approximated in $n^{f(k)}$ time, for some
-                   function $f$, and in particular it was not known if maximum
-                   weight independent set could be solved in polynomial time
-                   on graphs of bounded tree-independence number.
-                   
-                   In this paper, we resolve the main open problems about the
-                   computation of tree-independence number. First, we give an
-                   algorithm that given an $n$-vertex graph $G$ and an integer
-                   $k$, in time $2^{O(k^2)} n^{O(k)}$ either outputs a tree
-                   decomposition of $G$ with independence number at most $8k$,
-                   or determines that the tree-independence number of $G$ is
-                   larger than~$k$. This implies $2^{O(k^2)} n^{O(k)}$ time
-                   algorithms for various problems, like maximum weight
-                   independent set, parameterized by tree-independence number
-                   $k$ without needing the decomposition as an input. Then, we
-                   show that the exact computing of tree-independence number
-                   is paraNP-hard, in particular, that for every constant $k
-                   \ge 4$ it is NP-hard to decide if a given graph has
-                   tree-independence number at most $k$.},
-  archiveprefix = {arXiv},
-  doi           = {10.48550/arxiv.2207.09993},
-  eprint        = {2207.09993},
-  month         = {07},
-  url           = {https://doi.org/10.48550/arXiv.2207.09993},
-  volume        = {abs/2207.09993},
-  year          = {2022}
+@inproceedings{DFGKM2024,
+  title     = {Computing Tree Decompositions with Small Independence
+               Number},
+  author    = {Dallard, Clément and Fomin, Fedor V. and Golovach, Petr
+               A. and Korhonen, Tuukka and Milanič, Martin},
+  abstract  = {The independence number of a tree decomposition is the
+               maximum of the independence numbers of the subgraphs
+               induced by its bags. The tree-independence number of a
+               graph is the minimum independence number of a tree
+               decomposition of it. Several NP-hard graph problems, like
+               maximum weight independent set, can be solved in time
+               $n^{O(k)}$ if the input graph is given with a tree
+               decomposition of independence number at most $k$. However,
+               it was an open problem if tree-independence number could be
+               computed or approximated in $n^{f(k)}$ time, for some
+               function $f$, and in particular it was not known if maximum
+               weight independent set could be solved in polynomial time
+               on graphs of bounded tree-independence number.
+               
+               In this paper, we resolve the main open problems about the
+               computation of tree-independence number. First, we give an
+               algorithm that given an $n$-vertex graph $G$ and an integer
+               $k$, in time $2^{O(k^2)} n^{O(k)}$ either outputs a tree
+               decomposition of $G$ with independence number at most $8k$,
+               or determines that the tree-independence number of $G$ is
+               larger than~$k$. This implies $2^{O(k^2)} n^{O(k)}$ time
+               algorithms for various problems, like maximum weight
+               independent set, parameterized by tree-independence number
+               $k$ without needing the decomposition as an input. Then, we
+               show that the exact computing of tree-independence number
+               is paraNP-hard, in particular, that for every constant $k
+               \ge 4$ it is NP-hard to decide if a given graph has
+               tree-independence number at most $k$.},
+  booktitle = {51st International Colloquium on Automata, Languages, and Programming (ICALP 2024)},
+  pages     = {51:1--51:18},
+  series    = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  isbn      = {978-3-95977-322-5},
+  issn      = {1868-8969},
+  year      = {2024},
+  month     = {07},
+  day       = {02},
+  volume    = {297},
+  editor    = {Bringmann, Karl and Grohe, Martin and Puppis, Gabriele and Svensson, Ola},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address   = {Dagstuhl, Germany},
+  doi       = {10.4230/LIPIcs.ICALP.2024.51}
 }
 
 @article{DMS_JCTB2024,
