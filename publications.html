@@ -4295,25 +4295,46 @@ function getCoauthorsFromPublications() {
     });
   });
   coauthors.delete("Dallard, Clément");
-  const sortedCoauthors = Array.from(coauthors.keys()).sort();
+  const sortedCoauthors = Array.from(coauthors.keys()).sort((a, b) => {
+    // Normalize the strings to lowercase for case-insensitive comparison
+    a = a.toLowerCase();
+    b = b.toLowerCase();
 
+    // Normalize UTF-8/16 characters to ASCII equivalents
+    a = a.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    b = b.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Compare the strings normally
+    if (a < b) {
+      return -1;
+    } else if (a > b) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
   return { sortedCoauthors, coauthors };
 }
 
 function filterAuthors() {
   const displayedAuthors = new Map();
-  const displayedPublications = document.querySelectorAll(".biblio-item:not([hidden])");
+  const displayedPublications = document.querySelectorAll(
+    ".biblio-item:not([hidden])"
+  );
 
   displayedPublications.forEach((pub) => {
     const authors = pub.dataset.authors.split(" and ");
-    authors.forEach((author) => displayedAuthors.set(author, (displayedAuthors.get(author) ?? 0) + 1));
+    authors.forEach((author) =>
+      displayedAuthors.set(author, (displayedAuthors.get(author) ?? 0) + 1)
+    );
   });
   displayedAuthors.delete("Dallard, Clément");
 
   console.log(displayedAuthors.size + " " + displayedPublications.length);
 
-
-  const { sortedCoauthors, coauthors } = getCoauthorsFromPublications(displayedPublications);
+  const { sortedCoauthors, coauthors } = getCoauthorsFromPublications(
+    displayedPublications
+  );
 
   sortedCoauthors.forEach((author) => {
     let li = coauthorElements.get(author);
@@ -4329,7 +4350,9 @@ function filterAuthors() {
       coauthorElements.set(author, li);
     }
 
-    li.querySelector("a").textContent = `${author} (${displayedAuthors.get(author)})`;
+    li.querySelector("a").textContent = `${author} (${displayedAuthors.get(
+      author
+    )})`;
     li.hidden = !displayedAuthors.has(author);
 
     if (selectedAuthors.includes(author)) {
