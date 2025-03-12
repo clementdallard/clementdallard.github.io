@@ -1,3 +1,22 @@
+@misc{BDDHMPT2025,
+      title={Induced Minor Models. I. Structural Properties and Algorithmic Consequences}, 
+      author={Nicolas Bousquet and Clément Dallard and Maël Dumas and Claire Hilaire and Martin Milanič and Anthony Perez and Nicolas Trotignon},
+      year={2025},
+      month={02},
+      eprint={2402.08332},
+      archivePrefix={arXiv},
+      primaryClass={math.CO},
+      doi={10.48550/arXiv.2402.08332},
+      abstract={A graph $H$ is said to be an \emph{induced minor} of a graph $G$ if $H$ can be obtained from $G$ by a sequence of vertex deletions and edge contractions.
+  Equivalently, $H$ is an induced minor of $G$ if there exists an \emph{induced minor model} of $H$ in $G$, that is, a collection of pairwise disjoint subsets of vertices of $G$ labeled by the vertices of $H$, each inducing a connected subgraph in $G$, such that two vertices of $H$ are adjacent if and only if there is an edge in $G$ between the corresponding subsets.
+
+  In this paper, we investigate structural properties of induced minor models, including bounds on treewidth and chromatic number of the subgraphs induced by minimal induced minor models.
+  It is known that for some graphs $H$, testing a given graph $G$ contains $H$ as an induced minor is an NP-complete problem.
+  Nevertheless, as algorithmic applications of our structural results, we make use of recent developments regarding tree-independence number to show that if $H$ is the $4$-wheel, the $5$-vertex complete graph minus an edge, or a complete bipartite graph $K_{2,q}$, then there is a polynomial-time algorithm to find in a given graph $G$ an induced minor model of $H$ in $G$, if there is one.
+  We also develop an alternative polynomial-time algorithm for recognizing graphs that do not contain $K_{2,3}$ as an induced minor, which revolves around the idea of detecting the induced subgraphs whose presence is forced when the input graph contains $K_{2,3}$ as an induced minor, using the so-called shortest path detector.
+  It turns out that all these induced subgraphs are Truemper configurations.}
+}
+
 @inproceedings{DDHP2025,
   title         = {Sufficient conditions for polynomial-time detection of induced minors},
   author        = {Clément Dallard and Maël Dumas and Claire Hilaire and Anthony Perez},
@@ -82,15 +101,12 @@ isbn="978-3-031-82670-2",
                     particular induced subgraphs, called Truemper
                     configurations.},
   address        = {Cham},
-  archiveprefix  = {arXiv},
   booktitle      = {Combinatorial Algorithms},
   day            = {22},
   doi            = {10.1007/978-3-031-63021-7_12},
-  eprint         = {2402.08332},
   isbn           = {978-3-031-63021-7},
   month          = {06},
   pages          = {151--164},
-  primaryclass   = {math.CO},
   publisher      = {Springer Nature Switzerland},
   shortbooktitle = {IWOCA},
   year           = {2024}
