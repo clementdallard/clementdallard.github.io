@@ -1,56 +1,249 @@
 1:"$Sreact.fragment"
-2:I[20151,["/_next/static/chunks/bd017dd23d71b58d.js","/_next/static/chunks/96ddd2c8bbed9920.js","/_next/static/chunks/d0f5d0046732141d.js"],"PublicationsClient"]
+2:I[20151,["/_next/static/chunks/bd017dd23d71b58d.js","/_next/static/chunks/71a1d2f19e5c32be.js","/_next/static/chunks/c3e7dd3473558d73.js"],"PublicationsClient"]
 3f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
 40:"$Sreact.suspense"
-3:T468,For a graph $G$, we denote by $\alpha(G)$ the size of a maximum independent set and by $\omega(G)$ the size of a maximum clique in $G$. Our paper lies on the edge of two lines of research, related to $\alpha$ and $\omega$, respectively. One of them studies $\alpha$-variants of graph parameters, such as $\alpha$-treewidth or $\alpha$-degeneracy. The second line deals with graph classes where some parameters are bounded by a function of $\omega(G)$. A famous example of this type is the family of $\chi$-bounded classes, where the chromatic number $\chi(G)$ is bounded by a function of $\omega(G)$.
-      
-      A Ramsey-type argument implies that if the $\alpha$-variant of a graph parameter $\rho$ is bounded by a constant in a class $\mathcal{G}$, then $\rho$ is bounded by a function of $\omega$ in $\mathcal{G}$. If the reverse implication also holds, we say that $\rho$ is awesome. Otherwise, we say that $\rho$ is awful. In the present paper, we identify a number of awesome and awful graph parameters, derive some algorithmic applications of awesomeness, and propose a number of open problems related to these notions.4:T601,@misc{BDLSZ2025,
+3:T45c,For a graph $G$, we denote by $\alpha(G)$ the size of a
+maximum independent set and by $\omega(G)$ the size of a
+maximum clique in $G$. Our paper lies on the edge of two
+lines of research, related to $\alpha$ and $\omega$,
+respectively. One of them studies $\alpha$-variants of
+graph parameters, such as $\alpha$-treewidth or
+$\alpha$-degeneracy. The second line deals with graph
+classes where some parameters are bounded by a function of
+$\omega(G)$. A famous example of this type is the family of
+$\chi$-bounded classes, where the chromatic number
+$\chi(G)$ is bounded by a function of $\omega(G)$.
+
+A Ramsey-type argument implies that if the $\alpha$-variant
+of a graph parameter $\rho$ is bounded by a constant in a
+class $\mathcal{G}$, then $\rho$ is bounded by a function
+of $\omega$ in $\mathcal{G}$. If the reverse implication
+also holds, we say that $\rho$ is awesome. Otherwise, we
+say that $\rho$ is awful. In the present paper, we identify
+a number of awesome and awful graph parameters, derive some
+algorithmic applications of awesomeness, and propose a
+number of open problems related to these notions.4:T5f7,@misc{B-SDLMZ2025,
   title         = {Awesome graph parameters},
-  author        = {Bešter Štorgel, Kenny and Clément Dallard and Vadim Lozin and Martin Milanič and Viktor Zamaraev},
-  month         = {11},
-  year          = {2025},
-  eprint        = {2511.05285},
-  archivePrefix = {arXiv},
-  primaryClass  = {math.CO},
+  author        = {Bešter Štorgel, Kenny and Clément Dallard and Vadim
+Lozin and Martin Milanič and Viktor Zamaraev},
+  abstract      = {For a graph $G$, we denote by $\alpha(G)$ the size of a
+maximum independent set and by $\omega(G)$ the size of a
+maximum clique in $G$. Our paper lies on the edge of two
+lines of research, related to $\alpha$ and $\omega$,
+respectively. One of them studies $\alpha$-variants of
+graph parameters, such as $\alpha$-treewidth or
+$\alpha$-degeneracy. The second line deals with graph
+classes where some parameters are bounded by a function of
+$\omega(G)$. A famous example of this type is the family of
+$\chi$-bounded classes, where the chromatic number
+$\chi(G)$ is bounded by a function of $\omega(G)$.
+
+A Ramsey-type argument implies that if the $\alpha$-variant
+of a graph parameter $\rho$ is bounded by a constant in a
+class $\mathcal{G}$, then $\rho$ is bounded by a function
+of $\omega$ in $\mathcal{G}$. If the reverse implication
+also holds, we say that $\rho$ is awesome. Otherwise, we
+say that $\rho$ is awful. In the present paper, we identify
+a number of awesome and awful graph parameters, derive some
+algorithmic applications of awesomeness, and propose a
+number of open problems related to these notions.},
+  archiveprefix = {arXiv},
   doi           = {https://doi.org/10.48550/arXiv.2511.05285},
-  abstract      = {For a graph $G$, we denote by $\alpha(G)$ the size of a maximum independent set and by $\omega(G)$ the size of a maximum clique in $G$. Our paper lies on the edge of two lines of research, related to $\alpha$ and $\omega$, respectively. One of them studies $\alpha$-variants of graph parameters, such as $\alpha$-treewidth or $\alpha$-degeneracy. The second line deals with graph classes where some parameters are bounded by a function of $\omega(G)$. A famous example of this type is the family of $\chi$-bounded classes, where the chromatic number $\chi(G)$ is bounded by a function of $\omega(G)$.
-      
-      A Ramsey-type argument implies that if the $\alpha$-variant of a graph parameter $\rho$ is bounded by a constant in a class $\mathcal{G}$, then $\rho$ is bounded by a function of $\omega$ in $\mathcal{G}$. If the reverse implication also holds, we say that $\rho$ is awesome. Otherwise, we say that $\rho$ is awful. In the present paper, we identify a number of awesome and awful graph parameters, derive some algorithmic applications of awesomeness, and propose a number of open problems related to these notions.},
-}5:T484,The $H$-Induced Minor Containment problem ($H$-IMC) consists in deciding if a fixed graph $H$ is an induced minor of a graph $G$ given as input, that is, whether $H$ can be obtained from $G$ by deleting vertices and contracting edges. Equivalently, the problem asks if there exists an induced minor model of $H$ in $G$, that is, a collection of disjoint subsets of vertices of $G$, each inducing a connected subgraph, such that contracting each subgraph into a single vertex results in $H$.
-      
-It is known that $H$-IMC is NP-complete for several graphs $H$, even when $H$ is a tree. In this work, we investigate which properties of $H$ guarantee the existence of an induced minor model whose structure can be leveraged to solve the problem in polynomial time. This allows us to identify four infinite families of graphs $H$ that enjoy such properties. Moreover, we show that if the input graph $G$ excludes long induced paths, then $H$-IMC is polynomial-time solvable for any fixed graph $H$. As a byproduct of our results, this implies that $H$-IMC is polynomial-time solvable for all graphs $H$ with at most $5$ vertices, except for three open cases.6:T644,@misc{DDHP2025II,
-  title         = {Induced Minor Models. II. Sufficient conditions for polynomial-time detection of induced minors},
-  author        = {Clément Dallard and Maël Dumas and Claire Hilaire and Anthony Perez},
+  eprint        = {2511.05285},
+  month         = {11},
+  primaryclass  = {math.CO},
   year          = {2025},
-  month         = {07},
-  eprint        = {2501.00161},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.DS},
+}5:T47e,The $H$-Induced Minor Containment problem ($H$-IMC)
+consists in deciding if a fixed graph $H$ is an induced
+minor of a graph $G$ given as input, that is, whether $H$
+can be obtained from $G$ by deleting vertices and
+contracting edges. Equivalently, the problem asks if there
+exists an induced minor model of $H$ in $G$, that is, a
+collection of disjoint subsets of vertices of $G$, each
+inducing a connected subgraph, such that contracting each
+subgraph into a single vertex results in $H$.
+
+It is known that $H$-IMC is NP-complete for several graphs
+$H$, even when $H$ is a tree. In this work, we investigate
+which properties of $H$ guarantee the existence of an
+induced minor model whose structure can be leveraged to
+solve the problem in polynomial time. This allows us to
+identify four infinite families of graphs $H$ that enjoy
+such properties. Moreover, we show that if the input graph
+$G$ excludes long induced paths, then $H$-IMC is
+polynomial-time solvable for any fixed graph $H$. As a
+byproduct of our results, this implies that $H$-IMC is
+polynomial-time solvable for all graphs $H$ with at most
+$5$ vertices, except for three open cases.6:T63c,@misc{DDHP2025,
+  title         = {Induced Minor Models. II. Sufficient conditions for
+polynomial-time detection of induced minors},
+  author        = {Clément Dallard and Maël Dumas and Claire Hilaire and
+Anthony Perez},
+  abstract      = {The $H$-Induced Minor Containment problem ($H$-IMC)
+consists in deciding if a fixed graph $H$ is an induced
+minor of a graph $G$ given as input, that is, whether $H$
+can be obtained from $G$ by deleting vertices and
+contracting edges. Equivalently, the problem asks if there
+exists an induced minor model of $H$ in $G$, that is, a
+collection of disjoint subsets of vertices of $G$, each
+inducing a connected subgraph, such that contracting each
+subgraph into a single vertex results in $H$.
+
+It is known that $H$-IMC is NP-complete for several graphs
+$H$, even when $H$ is a tree. In this work, we investigate
+which properties of $H$ guarantee the existence of an
+induced minor model whose structure can be leveraged to
+solve the problem in polynomial time. This allows us to
+identify four infinite families of graphs $H$ that enjoy
+such properties. Moreover, we show that if the input graph
+$G$ excludes long induced paths, then $H$-IMC is
+polynomial-time solvable for any fixed graph $H$. As a
+byproduct of our results, this implies that $H$-IMC is
+polynomial-time solvable for all graphs $H$ with at most
+$5$ vertices, except for three open cases.},
+  archiveprefix = {arXiv},
   doi           = {https://doi.org/10.48550/arXiv.2501.00161},
-  abstract      = {The $H$-Induced Minor Containment problem ($H$-IMC) consists in deciding if a fixed graph $H$ is an induced minor of a graph $G$ given as input, that is, whether $H$ can be obtained from $G$ by deleting vertices and contracting edges. Equivalently, the problem asks if there exists an induced minor model of $H$ in $G$, that is, a collection of disjoint subsets of vertices of $G$, each inducing a connected subgraph, such that contracting each subgraph into a single vertex results in $H$.
-      
-It is known that $H$-IMC is NP-complete for several graphs $H$, even when $H$ is a tree. In this work, we investigate which properties of $H$ guarantee the existence of an induced minor model whose structure can be leveraged to solve the problem in polynomial time. This allows us to identify four infinite families of graphs $H$ that enjoy such properties. Moreover, we show that if the input graph $G$ excludes long induced paths, then $H$-IMC is polynomial-time solvable for any fixed graph $H$. As a byproduct of our results, this implies that $H$-IMC is polynomial-time solvable for all graphs $H$ with at most $5$ vertices, except for three open cases.},
-}7:T52c,We consider the task of allocating indivisible items to agents, when the agents’ preferences over the items are identical. The preferences are captured by means of a directed acyclic graph, with vertices representing items and an edge $(a,b)$, meaning that each of the agents prefers item $a$ over item $b$. The dissatisfaction of an agent is measured by the number of items that the agent does not receive and for which it also does not receive any more preferred item. The aim is to allocate the items to the agents in a fair way, i.e., to minimize the maximum dissatisfaction among the agents. We study the status of computational complexity of that problem and establish the following dichotomy: the problem is NP-hard for the case of at least three agents, even on fairly restricted graphs, but polynomially solvable for two agents. We also provide several polynomial-time results with respect to different underlying graph structures, such as graphs of width at most two and tree-like structures such as stars and matchings. These findings are complemented with fixed parameter tractability results related to path modules and independent set modules. Techniques employed in the paper include bottleneck assignment problem, greedy algorithm, dynamic programming, maximum network flow, and integer linear programming.8:T817,@article{CDDLMMP2025,
-  title         = {Minimizing Maximum Dissatisfaction in the Allocation of
-Indivisible Items under a Common Preference Graph},
+  eprint        = {2501.00161},
+  month         = {07},
+  primaryclass  = {cs.DS},
+  year          = {2025},
+}7:T52c,We consider the task of allocating indivisible items to
+agents, when the agents’ preferences over the items are
+identical. The preferences are captured by means of a
+directed acyclic graph, with vertices representing items
+and an edge $(a,b)$, meaning that each of the agents
+prefers item $a$ over item $b$. The dissatisfaction of an
+agent is measured by the number of items that the agent
+does not receive and for which it also does not receive any
+more preferred item. The aim is to allocate the items to
+the agents in a fair way, i.e., to minimize the maximum
+dissatisfaction among the agents. We study the status of
+computational complexity of that problem and establish the
+following dichotomy: the problem is NP-hard for the case of
+at least three agents, even on fairly restricted graphs,
+but polynomially solvable for two agents. We also provide
+several polynomial-time results with respect to different
+underlying graph structures, such as graphs of width at
+most two and tree-like structures such as stars and
+matchings. These findings are complemented with fixed
+parameter tractability results related to path modules and
+independent set modules. Techniques employed in the paper
+include bottleneck assignment problem, greedy algorithm,
+dynamic programming, maximum network flow, and integer
+linear programming.8:T834,@article{CDDLMMP2025,
+  title         = {Minimizing maximum dissatisfaction in the allocation of indivisible items under a common preference graph.},
   author        = {Nina Chiarelli and Clément Dallard and Andreas Darmann
 and Stefan Lendl and Martin Milanič and Peter Muršič and
 Ulrich Pferschy},
-  abstract      = {We consider the task of allocating indivisible items to agents, when the agents’ preferences over the items are identical. The preferences are captured by means of a directed acyclic graph, with vertices representing items and an edge $(a,b)$, meaning that each of the agents prefers item $a$ over item $b$. The dissatisfaction of an agent is measured by the number of items that the agent does not receive and for which it also does not receive any more preferred item. The aim is to allocate the items to the agents in a fair way, i.e., to minimize the maximum dissatisfaction among the agents. We study the status of computational complexity of that problem and establish the following dichotomy: the problem is NP-hard for the case of at least three agents, even on fairly restricted graphs, but polynomially solvable for two agents. We also provide several polynomial-time results with respect to different underlying graph structures, such as graphs of width at most two and tree-like structures such as stars and matchings. These findings are complemented with fixed parameter tractability results related to path modules and independent set modules. Techniques employed in the paper include bottleneck assignment problem, greedy algorithm, dynamic programming, maximum network flow, and integer linear programming.},
+  abstract      = {We consider the task of allocating indivisible items to
+agents, when the agents’ preferences over the items are
+identical. The preferences are captured by means of a
+directed acyclic graph, with vertices representing items
+and an edge $(a,b)$, meaning that each of the agents
+prefers item $a$ over item $b$. The dissatisfaction of an
+agent is measured by the number of items that the agent
+does not receive and for which it also does not receive any
+more preferred item. The aim is to allocate the items to
+the agents in a fair way, i.e., to minimize the maximum
+dissatisfaction among the agents. We study the status of
+computational complexity of that problem and establish the
+following dichotomy: the problem is NP-hard for the case of
+at least three agents, even on fairly restricted graphs,
+but polynomially solvable for two agents. We also provide
+several polynomial-time results with respect to different
+underlying graph structures, such as graphs of width at
+most two and tree-like structures such as stars and
+matchings. These findings are complemented with fixed
+parameter tractability results related to path modules and
+independent set modules. Techniques employed in the paper
+include bottleneck assignment problem, greedy algorithm,
+dynamic programming, maximum network flow, and integer
+linear programming.},
   archiveprefix = {arXiv},
   doi           = {10.1016/j.disopt.2025.100913},
   eprint        = {2312.01804},
   issn          = {1572-5286},
   journal       = {Discrete Optimization},
-  keywords      = {Fair division, Partial order, Preference graph, Dissatisfaction, Polynomial time algorithm, Computational complexity},
+  keywords      = {Fair division, Partial order, Preference graph,
+Dissatisfaction, Polynomial time algorithm, Computational
+complexity},
   month         = {02},
+  pages         = {100913},
   primaryclass  = {cs.DM},
   volume        = {58},
   year          = {2025},
-}9:T719,The independence number of a tree decomposition is the maximum of the independence numbers of the subgraphs induced by its bags. The tree-independence number of a graph is the minimum independence number of a tree decomposition of it. Several NP-hard graph problems, like maximum weight independent set, can be solved in time $n^{mathcal{O}(k)})$ if the input $n$-vertex graph is given together with a tree decomposition of independence number $k$ . Yolov, in [SODA 2018], gave an algorithm that, given an $n$-vertex graph $G$ and an integer $k$, in time $n^{mathcal{O}(k^{3})}$ either constructs a tree decomposition of $G$ whose independence number is $mathcal{O}(k^{3})$ or correctly reports that the tree-independence number of $G$ is larger than $k$. In this paper, we first give an algorithm for computing the tree-independence number with a better approximation ratio and running time and then prove that our algorithm is, in some sense, the best one can hope for. More precisely, our algorithm runs in time $2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$ and either outputs a tree decomposition of $G$ with independence number at most $8k$, or determines that the tree-independence number of $G$ is larger than $k$. This implies $2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$-time algorithms for various problems, like maximum weight independent set, parameterized by the tree-independence number $k$ without needing the decomposition as an input. Assuming Gap-ETH, an $n^{Omega(k)}$ factor in the running time is unavoidable for any approximation algorithm for the tree-independence number. Our second result is that the exact computation of the tree-independence number is para-NP-hard: We show that for every constant $k \geq 4$ it is NP-complete to decide if a given graph has the tree-independence number at most $k$.a:T9f6,@article{DFGKM2025,
-  title         = {Computing Tree Decompositions with Small Independence Number},
-  author        = {Dallard, Cl\'{e}ment and Fomin, Fedor V. and Golovach, Petr A. and Korhonen, Tuukka and Milani\v{c}, Martin},
-  abstract      = {The independence number of a tree decomposition is the maximum of the independence numbers of the subgraphs induced by its bags. The tree-independence number of a graph is the minimum independence number of a tree decomposition of it. Several NP-hard graph problems, like maximum weight independent set, can be solved in time $n^{mathcal{O}(k)})$ if the input $n$-vertex graph is given together with a tree decomposition of independence number $k$ . Yolov, in [SODA 2018], gave an algorithm that, given an $n$-vertex graph $G$ and an integer $k$, in time $n^{mathcal{O}(k^{3})}$ either constructs a tree decomposition of $G$ whose independence number is $mathcal{O}(k^{3})$ or correctly reports that the tree-independence number of $G$ is larger than $k$. In this paper, we first give an algorithm for computing the tree-independence number with a better approximation ratio and running time and then prove that our algorithm is, in some sense, the best one can hope for. More precisely, our algorithm runs in time $2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$ and either outputs a tree decomposition of $G$ with independence number at most $8k$, or determines that the tree-independence number of $G$ is larger than $k$. This implies $2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$-time algorithms for various problems, like maximum weight independent set, parameterized by the tree-independence number $k$ without needing the decomposition as an input. Assuming Gap-ETH, an $n^{Omega(k)}$ factor in the running time is unavoidable for any approximation algorithm for the tree-independence number. Our second result is that the exact computation of the tree-independence number is para-NP-hard: We show that for every constant $k \geq 4$ it is NP-complete to decide if a given graph has the tree-independence number at most $k$.},
+}9:T719,The independence number of a tree decomposition is the
+maximum of the independence numbers of the subgraphs
+induced by its bags. The tree-independence number of a
+graph is the minimum independence number of a tree
+decomposition of it. Several NP-hard graph problems, like
+maximum weight independent set, can be solved in time
+$n^{mathcal{O}(k)})$ if the input $n$-vertex graph is given
+together with a tree decomposition of independence number
+$k$ . Yolov, in [SODA 2018], gave an algorithm that, given
+an $n$-vertex graph $G$ and an integer $k$, in time
+$n^{mathcal{O}(k^{3})}$ either constructs a tree
+decomposition of $G$ whose independence number is
+$mathcal{O}(k^{3})$ or correctly reports that the
+tree-independence number of $G$ is larger than $k$. In this
+paper, we first give an algorithm for computing the
+tree-independence number with a better approximation ratio
+and running time and then prove that our algorithm is, in
+some sense, the best one can hope for. More precisely, our
+algorithm runs in time
+$2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$ and either outputs
+a tree decomposition of $G$ with independence number at
+most $8k$, or determines that the tree-independence number
+of $G$ is larger than $k$. This implies
+$2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$-time algorithms
+for various problems, like maximum weight independent set,
+parameterized by the tree-independence number $k$ without
+needing the decomposition as an input. Assuming Gap-ETH, an
+$n^{Omega(k)}$ factor in the running time is unavoidable
+for any approximation algorithm for the tree-independence
+number. Our second result is that the exact computation of
+the tree-independence number is para-NP-hard: We show that
+for every constant $k \geq 4$ it is NP-complete to decide
+if a given graph has the tree-independence number at most
+$k$.a:T9f6,@article{DFGKM2025,
+  title         = {Computing Tree Decompositions with Small Independence
+Number},
+  author        = {Dallard, Cl\'{e}ment and Fomin, Fedor V. and Golovach,
+Petr A. and Korhonen, Tuukka and Milani\v{c}, Martin},
+  abstract      = {The independence number of a tree decomposition is the
+maximum of the independence numbers of the subgraphs
+induced by its bags. The tree-independence number of a
+graph is the minimum independence number of a tree
+decomposition of it. Several NP-hard graph problems, like
+maximum weight independent set, can be solved in time
+$n^{mathcal{O}(k)})$ if the input $n$-vertex graph is given
+together with a tree decomposition of independence number
+$k$ . Yolov, in [SODA 2018], gave an algorithm that, given
+an $n$-vertex graph $G$ and an integer $k$, in time
+$n^{mathcal{O}(k^{3})}$ either constructs a tree
+decomposition of $G$ whose independence number is
+$mathcal{O}(k^{3})$ or correctly reports that the
+tree-independence number of $G$ is larger than $k$. In this
+paper, we first give an algorithm for computing the
+tree-independence number with a better approximation ratio
+and running time and then prove that our algorithm is, in
+some sense, the best one can hope for. More precisely, our
+algorithm runs in time
+$2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$ and either outputs
+a tree decomposition of $G$ with independence number at
+most $8k$, or determines that the tree-independence number
+of $G$ is larger than $k$. This implies
+$2^{mathcal{O}(k^{2})}n^{mathcal{O}(k)}$-time algorithms
+for various problems, like maximum weight independent set,
+parameterized by the tree-independence number $k$ without
+needing the decomposition as an input. Assuming Gap-ETH, an
+$n^{Omega(k)}$ factor in the running time is unavoidable
+for any approximation algorithm for the tree-independence
+number. Our second result is that the exact computation of
+the tree-independence number is para-NP-hard: We show that
+for every constant $k \geq 4$ it is NP-complete to decide
+if a given graph has the tree-independence number at most
+$k$.},
   address       = {New York, NY, USA},
   archiveprefix = {arXiv},
   doi           = {10.1145/3767730},
@@ -63,10 +256,51 @@ Ulrich Pferschy},
   publisher     = {Association for Computing Machinery},
   url           = {https://doi.org/10.1145/3767730},
   year          = {2025},
-}b:T46f,Motivated by a question of Galby, Munaro, and Yang (SoCG 2023) asking whether every graph class of bounded layered tree-independence number admits clique-based separators of sublinear weight, we investigate relations between layered tree-independence number, weight of clique-based separators, clique cover degeneracy and independence degeneracy. In particular, we provide a number of results bounding these parameters on geometric intersection graphs. For example, we show that the layered tree-independence number is $\mathcal{O}(g)$ for $g$-map graphs, $\mathcal{O}(\frac{r}{\tanh r})$ for hyperbolic uniform disk graphs with radius $r$, and $\mathcal{O}(1)$ for spherical uniform disk graphs with radius $r$. Our structural results have algorithmic consequences. In particular, we obtain a number of subexponential or quasi-polynomial-time algorithms for weighted problems such as \textsc{Max Weight Independent Set} and \textsc{Min Weight Feedback Vertex Set} on several geometric intersection graphs. Finally, we conjecture that every fractionally tree-independence-number-fragile graph class has bounded independence degeneracy.c:T623,@misc{DMMY2025,
+}b:T46f,Motivated by a question of Galby, Munaro, and Yang (SoCG
+2023) asking whether every graph class of bounded layered
+tree-independence number admits clique-based separators of
+sublinear weight, we investigate relations between layered
+tree-independence number, weight of clique-based
+separators, clique cover degeneracy and independence
+degeneracy. In particular, we provide a number of results
+bounding these parameters on geometric intersection graphs.
+For example, we show that the layered tree-independence
+number is $\mathcal{O}(g)$ for $g$-map graphs,
+$\mathcal{O}(\frac{r}{\tanh r})$ for hyperbolic uniform
+disk graphs with radius $r$, and $\mathcal{O}(1)$ for
+spherical uniform disk graphs with radius $r$. Our
+structural results have algorithmic consequences. In
+particular, we obtain a number of subexponential or
+quasi-polynomial-time algorithms for weighted problems such
+as \textsc{Max Weight Independent Set} and \textsc{Min
+Weight Feedback Vertex Set} on several geometric
+intersection graphs. Finally, we conjecture that every
+fractionally tree-independence-number-fragile graph class
+has bounded independence degeneracy.c:T623,@misc{DMMY2025,
   title         = {Layered tree-independence number and clique-based separators.},
-  author        = {Clément Dallard and Martin Milanič and Andrea Munaro and Shizhou Yang},
-  abstract      = {Motivated by a question of Galby, Munaro, and Yang (SoCG 2023) asking whether every graph class of bounded layered tree-independence number admits clique-based separators of sublinear weight, we investigate relations between layered tree-independence number, weight of clique-based separators, clique cover degeneracy and independence degeneracy. In particular, we provide a number of results bounding these parameters on geometric intersection graphs. For example, we show that the layered tree-independence number is $\mathcal{O}(g)$ for $g$-map graphs, $\mathcal{O}(\frac{r}{\tanh r})$ for hyperbolic uniform disk graphs with radius $r$, and $\mathcal{O}(1)$ for spherical uniform disk graphs with radius $r$. Our structural results have algorithmic consequences. In particular, we obtain a number of subexponential or quasi-polynomial-time algorithms for weighted problems such as \textsc{Max Weight Independent Set} and \textsc{Min Weight Feedback Vertex Set} on several geometric intersection graphs. Finally, we conjecture that every fractionally tree-independence-number-fragile graph class has bounded independence degeneracy.},
+  author        = {Clément Dallard and Martin Milanič and Andrea Munaro and
+Shizhou Yang},
+  abstract      = {Motivated by a question of Galby, Munaro, and Yang (SoCG
+2023) asking whether every graph class of bounded layered
+tree-independence number admits clique-based separators of
+sublinear weight, we investigate relations between layered
+tree-independence number, weight of clique-based
+separators, clique cover degeneracy and independence
+degeneracy. In particular, we provide a number of results
+bounding these parameters on geometric intersection graphs.
+For example, we show that the layered tree-independence
+number is $\mathcal{O}(g)$ for $g$-map graphs,
+$\mathcal{O}(\frac{r}{\tanh r})$ for hyperbolic uniform
+disk graphs with radius $r$, and $\mathcal{O}(1)$ for
+spherical uniform disk graphs with radius $r$. Our
+structural results have algorithmic consequences. In
+particular, we obtain a number of subexponential or
+quasi-polynomial-time algorithms for weighted problems such
+as \textsc{Max Weight Independent Set} and \textsc{Min
+Weight Feedback Vertex Set} on several geometric
+intersection graphs. Finally, we conjecture that every
+fractionally tree-independence-number-fragile graph class
+has bounded independence degeneracy.},
   archiveprefix = {arXiv},
   doi           = {10.48550/arxiv.2506.12424},
   eprint        = {2506.12424},
@@ -74,11 +308,22 @@ Ulrich Pferschy},
   primaryclass  = {math.CO},
   volume        = {abs/2506.12424},
   year          = {2025},
-}d:T440,@misc{CDM2025,
+}d:T43f,@misc{CDM2025,
   title         = {On constrained intersection representations of graphs and digraphs.},
-  author        = {Ferdinando Cicalese and Clément Dallard and Martin Milanič},
-  abstract      = {We study the problem of determining optimal directed intersection representations of DAGs in a model introduced by Kostochka, Liu, Machado, and Milenkovic [ISIT2019]: vertices are assigned color sets so that there is an arc from a vertex $u$ to a vertex $v$ if and only if their color sets have nonempty intersection and $v$ gets assigned strictly more colors than $u$, and the goal is to minimize the total number of colors. 
-We show that the problem is polynomially solvable in the class of triangle-free and Hamiltonian DAGs and also disclose the relationship of this problem with several other models of intersection representations of graphs and digraphs.},
+  author        = {Ferdinando Cicalese and Clément Dallard and Martin
+Milanič},
+  abstract      = {We study the problem of determining optimal directed
+intersection representations of DAGs in a model introduced
+by Kostochka, Liu, Machado, and Milenkovic [ISIT2019]:
+vertices are assigned color sets so that there is an arc
+from a vertex $u$ to a vertex $v$ if and only if their
+color sets have nonempty intersection and $v$ gets assigned
+strictly more colors than $u$, and the goal is to minimize
+the total number of colors. We show that the problem is
+polynomially solvable in the class of triangle-free and
+Hamiltonian DAGs and also disclose the relationship of this
+problem with several other models of intersection
+representations of graphs and digraphs.},
   archiveprefix = {arXiv},
   doi           = {10.48550/arxiv.2504.18365},
   eprint        = {2504.18365},
@@ -86,49 +331,114 @@ We show that the problem is polynomially solvable in the class of triangle-free 
   primaryclass  = {cs.DM},
   volume        = {abs/2504.18365},
   year          = {2025},
-}e:T657,A graph $H$ is said to be an \emph{induced minor} of a graph $G$ if $H$ can be obtained from $G$ by a sequence of vertex deletions and edge contractions.
-Equivalently, $H$ is an induced minor of $G$ if there exists an \emph{induced minor model} of $H$ in $G$, that is, a collection of pairwise disjoint subsets of vertices of $G$ labeled by the vertices of $H$, each inducing a connected subgraph in $G$, such that two vertices of $H$ are adjacent if and only if there is an edge in $G$ between the corresponding subsets.
+}e:T657,A graph $H$ is said to be an \emph{induced minor} of a
+graph $G$ if $H$ can be obtained from $G$ by a sequence of
+vertex deletions and edge contractions. Equivalently, $H$
+is an induced minor of $G$ if there exists an \emph{induced
+minor model} of $H$ in $G$, that is, a collection of
+pairwise disjoint subsets of vertices of $G$ labeled by the
+vertices of $H$, each inducing a connected subgraph in $G$,
+such that two vertices of $H$ are adjacent if and only if
+there is an edge in $G$ between the corresponding subsets.
 
-In this paper, we investigate structural properties of induced minor models, including bounds on treewidth and chromatic number of the subgraphs induced by minimal induced minor models.
-It is known that for some graphs $H$, testing a given graph $G$ contains $H$ as an induced minor is an NP-complete problem.
-Nevertheless, as algorithmic applications of our structural results, we make use of recent developments regarding tree-independence number to show that if $H$ is the $4$-wheel, the $5$-vertex complete graph minus an edge, or a complete bipartite graph $K_{2,q}$, then there is a polynomial-time algorithm to find in a given graph $G$ an induced minor model of $H$ in $G$, if there is one.
-We also develop an alternative polynomial-time algorithm for recognizing graphs that do not contain $K_{2,3}$ as an induced minor, which revolves around the idea of detecting the induced subgraphs whose presence is forced when the input graph contains $K_{2,3}$ as an induced minor, using the so-called shortest path detector.
-It turns out that all these induced subgraphs are Truemper configurations.f:T839,@misc{BDDHMPT2025,
-  title         = {Induced Minor Models. {I}. {S}tructural Properties and Algorithmic Consequences},
-  author        = {Nicolas Bousquet and Clément Dallard and Maël Dumas and Claire Hilaire and Martin Milanič and Anthony Perez and Nicolas Trotignon},
-  abstract      = {A graph $H$ is said to be an \emph{induced minor} of a graph $G$ if $H$ can be obtained from $G$ by a sequence of vertex deletions and edge contractions.
-Equivalently, $H$ is an induced minor of $G$ if there exists an \emph{induced minor model} of $H$ in $G$, that is, a collection of pairwise disjoint subsets of vertices of $G$ labeled by the vertices of $H$, each inducing a connected subgraph in $G$, such that two vertices of $H$ are adjacent if and only if there is an edge in $G$ between the corresponding subsets.
+In this paper, we investigate structural properties of
+induced minor models, including bounds on treewidth and
+chromatic number of the subgraphs induced by minimal
+induced minor models. It is known that for some graphs $H$,
+testing a given graph $G$ contains $H$ as an induced minor
+is an NP-complete problem. Nevertheless, as algorithmic
+applications of our structural results, we make use of
+recent developments regarding tree-independence number to
+show that if $H$ is the $4$-wheel, the $5$-vertex complete
+graph minus an edge, or a complete bipartite graph
+$K_{2,q}$, then there is a polynomial-time algorithm to
+find in a given graph $G$ an induced minor model of $H$ in
+$G$, if there is one. We also develop an alternative
+polynomial-time algorithm for recognizing graphs that do
+not contain $K_{2,3}$ as an induced minor, which revolves
+around the idea of detecting the induced subgraphs whose
+presence is forced when the input graph contains $K_{2,3}$
+as an induced minor, using the so-called shortest path
+detector. It turns out that all these induced subgraphs are
+Truemper configurations.f:T839,@misc{BDDHMPT2025,
+  title         = {Induced Minor Models. {I}. {S}tructural Properties and
+Algorithmic Consequences},
+  author        = {Nicolas Bousquet and Clément Dallard and Maël Dumas and
+Claire Hilaire and Martin Milanič and Anthony Perez and
+Nicolas Trotignon},
+  abstract      = {A graph $H$ is said to be an \emph{induced minor} of a
+graph $G$ if $H$ can be obtained from $G$ by a sequence of
+vertex deletions and edge contractions. Equivalently, $H$
+is an induced minor of $G$ if there exists an \emph{induced
+minor model} of $H$ in $G$, that is, a collection of
+pairwise disjoint subsets of vertices of $G$ labeled by the
+vertices of $H$, each inducing a connected subgraph in $G$,
+such that two vertices of $H$ are adjacent if and only if
+there is an edge in $G$ between the corresponding subsets.
 
-In this paper, we investigate structural properties of induced minor models, including bounds on treewidth and chromatic number of the subgraphs induced by minimal induced minor models.
-It is known that for some graphs $H$, testing a given graph $G$ contains $H$ as an induced minor is an NP-complete problem.
-Nevertheless, as algorithmic applications of our structural results, we make use of recent developments regarding tree-independence number to show that if $H$ is the $4$-wheel, the $5$-vertex complete graph minus an edge, or a complete bipartite graph $K_{2,q}$, then there is a polynomial-time algorithm to find in a given graph $G$ an induced minor model of $H$ in $G$, if there is one.
-We also develop an alternative polynomial-time algorithm for recognizing graphs that do not contain $K_{2,3}$ as an induced minor, which revolves around the idea of detecting the induced subgraphs whose presence is forced when the input graph contains $K_{2,3}$ as an induced minor, using the so-called shortest path detector.
-It turns out that all these induced subgraphs are Truemper configurations.},
+In this paper, we investigate structural properties of
+induced minor models, including bounds on treewidth and
+chromatic number of the subgraphs induced by minimal
+induced minor models. It is known that for some graphs $H$,
+testing a given graph $G$ contains $H$ as an induced minor
+is an NP-complete problem. Nevertheless, as algorithmic
+applications of our structural results, we make use of
+recent developments regarding tree-independence number to
+show that if $H$ is the $4$-wheel, the $5$-vertex complete
+graph minus an edge, or a complete bipartite graph
+$K_{2,q}$, then there is a polynomial-time algorithm to
+find in a given graph $G$ an induced minor model of $H$ in
+$G$, if there is one. We also develop an alternative
+polynomial-time algorithm for recognizing graphs that do
+not contain $K_{2,3}$ as an induced minor, which revolves
+around the idea of detecting the induced subgraphs whose
+presence is forced when the input graph contains $K_{2,3}$
+as an induced minor, using the so-called shortest path
+detector. It turns out that all these induced subgraphs are
+Truemper configurations.},
   archiveprefix = {arXiv},
   doi           = {10.48550/arXiv.2402.08332},
   eprint        = {2402.08332},
   month         = {02},
   primaryclass  = {math.CO},
   year          = {2025},
-}10:T6b2,@inproceedings{DDHP2025,
-  title         = {Sufficient Conditions for Polynomial-Time Detection of Induced Minors.},
-  author        = {Clément Dallard and Maël Dumas and Claire Hilaire and Anthony Perez},
-  abstract      = {The $H$-Induced Minor Containment problem ($H$-IMC) consists in deciding if a fixed graph $H$ is an induced minor of a graph $G$ given as input, that is, whether $H$ can be obtained from $G$ by deleting vertices and contracting edges. Several graphs $H$ are known for which $H$-IMC is NP-complete, even when $H$ is a tree. In this paper, we investigate which conditions on $H$ and $G$ are sufficient so that the problem becomes polynomial-time solvable. Our results identify three infinite classes of graphs such that, if $H$ belongs to one of these classes, then $H$-IMC can be solved in polynomial time. Moreover, we show that if the input graph $G$ excludes long induced paths, then $H$-IMC is polynomial-time solvable for any fixed graph $H$. As a byproduct of our results, this implies that $H$-IMC is polynomial-time solvable for all graphs $H$ with at most 5 vertices, except for three open cases.},
-  address       = {Cham},
-  archiveprefix = {arXiv},
-  booktitle     = {SOFSEM 2025: Theory and Practice of Computer Science},
-  doi           = {10.1007/978-3-031-82670-2_15},
-  editor        = {Kr{\'a}lovi{\v{c}}, Rastislav
-and K{\r{u}}rkov{\'a}, V{\v{e}}ra},
-  eprint        = {2501.00161},
-  isbn          = {978-3-031-82670-2},
-  month         = {02},
-  pages         = {195--208},
-  primaryclass  = {cs.DS},
-  publisher     = {Springer Nature Switzerland},
-  url           = {https://arxiv.org/abs/2501.00161},
-  volume        = {abs/2501.00161},
-  year          = {2025},
+}10:T6d5,@inproceedings{DDHP2025_1,
+  title          = {Sufficient Conditions for Polynomial-Time Detection of Induced Minors.},
+  author         = {Clément Dallard and Maël Dumas and Claire Hilaire and
+Anthony Perez},
+  abstract       = {The $H$-Induced Minor Containment problem ($H$-IMC)
+consists in deciding if a fixed graph $H$ is an induced
+minor of a graph $G$ given as input, that is, whether $H$
+can be obtained from $G$ by deleting vertices and
+contracting edges. Several graphs $H$ are known for which
+$H$-IMC is NP-complete, even when $H$ is a tree. In this
+paper, we investigate which conditions on $H$ and $G$ are
+sufficient so that the problem becomes polynomial-time
+solvable. Our results identify three infinite classes of
+graphs such that, if $H$ belongs to one of these classes,
+then $H$-IMC can be solved in polynomial time. Moreover, we
+show that if the input graph $G$ excludes long induced
+paths, then $H$-IMC is polynomial-time solvable for any
+fixed graph $H$. As a byproduct of our results, this
+implies that $H$-IMC is polynomial-time solvable for all
+graphs $H$ with at most 5 vertices, except for three open
+cases.},
+  address        = {Cham},
+  archiveprefix  = {arXiv},
+  booktitle      = {Theory and Practice of Computer Science},
+  doi            = {10.1007/978-3-031-82670-2_15},
+  editor         = {Kr{\'a}lovi{\v{c}}, Rastislav and K{\r{u}}rkov{\'a},
+V{\v{e}}ra},
+  eprint         = {2501.00161},
+  isbn           = {978-3-031-82670-2},
+  month          = {02},
+  pages          = {195--208},
+  primaryclass   = {cs.DS},
+  publisher      = {Springer Nature Switzerland},
+  shortbooktitle = {SOFSEM},
+  url            = {https://arxiv.org/abs/2501.00161},
+  volume         = {abs/2501.00161},
+  year           = {2025},
 }11:T5d2,Many recent works address the question of characterizing
 induced obstructions to bounded treewidth. In 2022, Lozin
 and Razgon completely answered this question for graph
@@ -195,7 +505,7 @@ family of graph classes.},
   url           = {https://doi.org/10.48550/arXiv.2402.11222},
   volume        = {abs/2402.11222},
   year          = {2024},
-}13:T4cc,@inproceedings{DDHMPT_IWOCA2024,
+}13:T4e6,@inproceedings{DDHMPT_IWOCA2024,
   title          = {Detecting $K_{2,3}$ as an induced minor},
   author         = {Clément Dallard and Maël Dumas and Claire Hilaire and
 Martin Milanič and Anthony Perez and Nicolas Trotignon},
@@ -213,7 +523,7 @@ $K_{2,3}$-induced minor-free graphs in terms of excluding
 particular induced subgraphs, called Truemper
 configurations.},
   address        = {Cham},
-  booktitle      = {Combinatorial Algorithms},
+  booktitle      = {International Workshop on Combinatorial Algorithms},
   day            = {22},
   doi            = {10.1007/978-3-031-63021-7_12},
   isbn           = {978-3-031-63021-7},
@@ -515,11 +825,11 @@ $k$ without needing the decomposition as an input. Then, we
 show that the exact computing of tree-independence number
 is paraNP-hard, in particular, that for every constant $k
 \ge 4$ it is NP-hard to decide if a given graph has
-tree-independence number at most $k$.1e:T960,@inproceedings{DFGKM2024,
-  title     = {Computing Tree Decompositions with Small Independence Number.},
-  author    = {Dallard, Clément and Fomin, Fedor V. and Golovach, Petr
+tree-independence number at most $k$.1e:T9c4,@inproceedings{DFGKM2024,
+  title          = {Computing Tree Decompositions with Small Independence Number.},
+  author         = {Dallard, Clément and Fomin, Fedor V. and Golovach, Petr
 A. and Korhonen, Tuukka and Milanič, Martin},
-  abstract  = {The independence number of a tree decomposition is the
+  abstract       = {The independence number of a tree decomposition is the
 maximum of the independence numbers of the subgraphs
 induced by its bags. The tree-independence number of a
 graph is the minimum independence number of a tree
@@ -547,23 +857,24 @@ show that the exact computing of tree-independence number
 is paraNP-hard, in particular, that for every constant $k
 \ge 4$ it is NP-hard to decide if a given graph has
 tree-independence number at most $k$.},
-  address   = {Dagstuhl, Germany},
-  booktitle = {51st International Colloquium on Automata, Languages, and
-Programming (ICALP 2024)},
-  day       = {02},
-  doi       = {10.4230/lipics.icalp.2024.51},
-  editor    = {Bringmann, Karl and Grohe, Martin and Puppis, Gabriele and
+  address        = {Dagstuhl, Germany},
+  booktitle      = {51st International Colloquium on Automata, Languages, and
+Programming},
+  shortbooktitle = {ICALP},
+  day            = {02},
+  doi            = {10.4230/lipics.icalp.2024.51},
+  editor         = {Bringmann, Karl and Grohe, Martin and Puppis, Gabriele and
 Svensson, Ola},
-  isbn      = {978-3-95977-322-5},
-  issn      = {1868-8969},
-  month     = {07},
-  pages     = {51:1--51:18},
-  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
-  series    = {Leibniz International Proceedings in Informatics
+  isbn           = {978-3-95977-322-5},
+  issn           = {1868-8969},
+  month          = {07},
+  pages          = {51:1--51:18},
+  publisher      = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  series         = {Leibniz International Proceedings in Informatics
 (LIPIcs)},
-  url       = {https://doi.org/10.4230/LIPIcs.ICALP.2024.51},
-  volume    = {297},
-  year      = {2024},
+  url            = {https://doi.org/10.4230/LIPIcs.ICALP.2024.51},
+  volume         = {297},
+  year           = {2024},
 }1f:T959,We continue the study of $(tw,\omega)$-bounded graph
 classes, that is, hereditary graph classes in which the
 treewidth can only be large due to the presence of a large
@@ -1015,7 +1326,7 @@ Theory},
   pages          = {243--257},
   shortbooktitle = {ADT},
   year           = {2021},
-}2a:T5ac,@inproceedings{DKM_IWOCA2021,
+}2a:T5c6,@inproceedings{DKM_IWOCA2021,
   title          = {Vertex Cover at Distance on H-Free Graphs.},
   author         = {Dallard, Clément and Krbezlija, Mirza and Milanič,
 Martin},
@@ -1035,7 +1346,7 @@ for all $k \ge 1$ and all graphs $H$, the
 polynomial time in the class of $H$-free graphs if $H$ is
 an induced subgraph of $P_{2k+2} + sP_{\max\{k,2\}}$ for
 some $s \ge 0$, and NP-complete otherwise.},
-  booktitle      = {Combinatorial Algorithms},
+  booktitle      = {International Workshop on Combinatorial Algorithms},
   day            = {30},
   doi            = {10.1007/978-3-030-79987-8_17},
   editor         = {Flocchini, Paola and Moura, Lucia},
@@ -1410,7 +1721,7 @@ $1$-perfectly orientable graphs is $(tw,\omega)$-bounded,
 answering a question of Brešar, Hartinger, Kos, and
 Milanič from 2018. We also reveal some further algorithmic
 implications of $(tw,\omega)$-boundedness related to list
-$k$-coloring and clique problems.34:T64f,@inproceedings{DMS_WG2020,
+$k$-coloring and clique problems.34:T669,@inproceedings{DMS_WG2020,
   title          = {Treewidth Versus Clique Number in Graph Classes with a Forbidden Structure.},
   author         = {Dallard, Clément and Milanič, Martin and Štorgel,
 Kenny},
@@ -1433,7 +1744,7 @@ answering a question of Brešar, Hartinger, Kos, and
 Milanič from 2018. We also reveal some further algorithmic
 implications of $(tw,\omega)$-boundedness related to list
 $k$-coloring and clique problems.},
-  booktitle      = {Graph-Theoretic Concepts in Computer Science},
+  booktitle      = {International Workshop on Graph-Theoretic Concepts in Computer Science},
   day            = {09},
   doi            = {10.1007/978-3-030-60440-0_8},
   isbn           = {978-3-030-60440-0},
@@ -1531,7 +1842,7 @@ degree $4$, and on $12$-coloured planar graphs with maximum
 degree $3$. Since the problem can be solved in
 polynomial-time on graphs with maximum degree $2$, the
 results are the best possible with regard to the maximum
-degree.38:T953,@inproceedings{CD_IWOCA2019,
+degree.38:T96d,@inproceedings{CD_IWOCA2019,
   title          = {Towards a Complexity Dichotomy for Colourful Components Problems on k-caterpillars and Small-Degree Planar Graphs.},
   author         = {Chlebíková, Janka and Dallard, Clément},
   abstract       = {A connected component of a vertex-coloured graph is said
@@ -1565,7 +1876,7 @@ degree $3$. Since the problem can be solved in
 polynomial-time on graphs with maximum degree $2$, the
 results are the best possible with regard to the maximum
 degree.},
-  booktitle      = {Combinatorial algorithms},
+  booktitle      = {International Workshop on Combinatorial Algorithms},
   doi            = {10.1007/978-3-030-25005-8_12},
   month          = {07},
   mrclass        = {68R10 (68Q17 68Q25)},
@@ -1577,7 +1888,7 @@ degree.},
   url            = {https://doi.org/10.1007/978-3-030-25005-8_12},
   volume         = {11638},
   year           = {2019},
-}39:T682,@inproceedings{CDP_CIAC2019,
+}39:T69e,@inproceedings{CDP_CIAC2019,
   title          = {Complexity of Scheduling for DARP with Soft Ride Times.},
   author         = {Chlebíková, Janka and Dallard, Clément and Paulsen,
 Niklas},
@@ -1599,7 +1910,7 @@ the ride time constraints are bounded by a constant.
 Lastly, we give a polynomial time algorithm for the
 instances where all the pickups precede all the deliveries
 in the sequence of stops.},
-  booktitle      = {Algorithms and complexity},
+  booktitle      = {International Conference on Algorithms and Complexity},
   doi            = {10.1007/978-3-030-17402-6_13},
   month          = {04},
   mrclass        = {68Q17 (68Q25 90B35)},
@@ -1659,7 +1970,7 @@ instance, guarantees a – non constant – ratio for the
 greedy algorithm on this instance. We prove that this
 measure is a fine upper bound on optimal score, we perform
 experiments on real instances and show that the greedy
-algorithm yields near from optimal solutions.3c:T735,@inproceedings{DWCG_COCOA2016,
+algorithm yields near from optimal solutions.3c:T751,@inproceedings{DWCG_COCOA2016,
   title          = {Instance Guaranteed Ratio on Greedy Heuristic for Genome Scaffolding.},
   author         = {Dallard, Clément and Weller, Mathias and Chateau, Annie
 and Giroudeau, Rodolphe},
@@ -1683,7 +1994,7 @@ greedy algorithm on this instance. We prove that this
 measure is a fine upper bound on optimal score, we perform
 experiments on real instances and show that the greedy
 algorithm yields near from optimal solutions.},
-  booktitle      = {Combinatorial optimization and applications},
+  booktitle      = {International Conference on Combinatorial Optimization and Applications},
   doi            = {10.1007/978-3-319-48749-6_22},
   month          = {10},
   mrclass        = {92D10 (90C35)},
@@ -1695,7 +2006,7 @@ algorithm yields near from optimal solutions.},
   url            = {https://doi.org/10.1007/978-3-319-48749-6_22},
   volume         = {10043},
   year           = {2016},
-}0:{"buildId":"9IcQxwderqnO3x8nPzaEd","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":["$","$L2",null,{"publications":[{"key":"BDLSZ2025","type":"misc","title":"Awesome graph parameters","authors":[{"name":"Kenny Bešter Štorgel","lastName":"Bešter Štorgel"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Vadim Lozin","lastName":"Lozin"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Viktor Zamaraev","lastName":"Zamaraev"}],"year":"2025","month":"11","booktitle":"","journal":"","publisher":"","doi":"https://doi.org/10.48550/arXiv.2511.05285","eprint":"2511.05285","abstract":"$3","bibtex":"$4"},{"key":"DDHP2025II","type":"misc","title":"Induced Minor Models. II. Sufficient conditions for polynomial-time detection of induced minors","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Anthony Perez","lastName":"Perez"}],"year":"2025","month":"07","booktitle":"","journal":"","publisher":"","doi":"https://doi.org/10.48550/arXiv.2501.00161","eprint":"2501.00161","abstract":"$5","bibtex":"$6"},{"key":"CDDLMMP2025","type":"article","title":"Minimizing Maximum Dissatisfaction in the Allocation of\nIndivisible Items under a Common Preference Graph","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Ulrich Pferschy","lastName":"Pferschy"}],"year":"2025","month":"02","booktitle":"","journal":"Discrete Optimization","publisher":"","doi":"10.1016/j.disopt.2025.100913","eprint":"2312.01804","abstract":"$7","bibtex":"$8"},{"key":"DFGKM2025","type":"article","title":"Computing Tree Decompositions with Small Independence Number","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Fedor V. Fomin","lastName":"Fomin"},{"name":"Petr A. Golovach","lastName":"Golovach"},{"name":"Tuukka Korhonen","lastName":"Korhonen"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2025","month":"09","booktitle":"","journal":"ACM Transactions on Algorithms","publisher":"Association for Computing Machinery","doi":"10.1145/3767730","eprint":"2207.09993","url":"https://doi.org/10.1145/3767730","abstract":"$9","bibtex":"$a"},{"key":"DMMY2025","type":"misc","title":"Layered tree-independence number and clique-based separators.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Andrea Munaro","lastName":"Munaro"},{"name":"Shizhou Yang","lastName":"Yang"}],"year":"2025","month":"06","booktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2506.12424","eprint":"2506.12424","abstract":"$b","bibtex":"$c"},{"key":"CDM2025","type":"misc","title":"On constrained intersection representations of graphs and digraphs.","authors":[{"name":"Ferdinando Cicalese","lastName":"Cicalese"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2025","month":"04","booktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2504.18365","eprint":"2504.18365","abstract":"We study the problem of determining optimal directed intersection representations of DAGs in a model introduced by Kostochka, Liu, Machado, and Milenkovic [ISIT2019]: vertices are assigned color sets so that there is an arc from a vertex $u$ to a vertex $v$ if and only if their color sets have nonempty intersection and $v$ gets assigned strictly more colors than $u$, and the goal is to minimize the total number of colors. \nWe show that the problem is polynomially solvable in the class of triangle-free and Hamiltonian DAGs and also disclose the relationship of this problem with several other models of intersection representations of graphs and digraphs.","bibtex":"$d"},{"key":"BDDHMPT2025","type":"misc","title":"Induced Minor Models. I. Structural Properties and Algorithmic Consequences","authors":[{"name":"Nicolas Bousquet","lastName":"Bousquet"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Anthony Perez","lastName":"Perez"},{"name":"Nicolas Trotignon","lastName":"Trotignon"}],"year":"2025","month":"02","booktitle":"","journal":"","publisher":"","doi":"10.48550/arXiv.2402.08332","eprint":"2402.08332","abstract":"$e","bibtex":"$f"},{"key":"DDHP2025","type":"inproceedings","title":"Sufficient Conditions for Polynomial-Time Detection of Induced Minors.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Anthony Perez","lastName":"Perez"}],"year":"2025","month":"02","booktitle":"SOFSEM 2025: Theory and Practice of Computer Science","journal":"","publisher":"Springer Nature Switzerland","doi":"10.1007/978-3-031-82670-2_15","eprint":"2501.00161","url":"https://arxiv.org/abs/2501.00161","abstract":"The $H$-Induced Minor Containment problem ($H$-IMC) consists in deciding if a fixed graph $H$ is an induced minor of a graph $G$ given as input, that is, whether $H$ can be obtained from $G$ by deleting vertices and contracting edges. Several graphs $H$ are known for which $H$-IMC is NP-complete, even when $H$ is a tree. In this paper, we investigate which conditions on $H$ and $G$ are sufficient so that the problem becomes polynomial-time solvable. Our results identify three infinite classes of graphs such that, if $H$ belongs to one of these classes, then $H$-IMC can be solved in polynomial time. Moreover, we show that if the input graph $G$ excludes long induced paths, then $H$-IMC is polynomial-time solvable for any fixed graph $H$. As a byproduct of our results, this implies that $H$-IMC is polynomial-time solvable for all graphs $H$ with at most 5 vertices, except for three open cases.","bibtex":"$10"},{"key":"DKKMMSW2024","type":"misc","title":"Treewidth versus clique number. IV. Tree-independence number of graphs excluding an induced star.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Matjaž Krnc","lastName":"Krnc"},{"name":"O-joung Kwon","lastName":"Kwon"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Andrea Munaro","lastName":"Munaro"},{"name":"Kenny Štorgel","lastName":"Štorgel"},{"name":"Sebastian Wiederrecht","lastName":"Wiederrecht"}],"year":"2024","month":"02","booktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2402.11222","eprint":"2402.11222","url":"https://doi.org/10.48550/arXiv.2402.11222","abstract":"$11","bibtex":"$12"},{"key":"DDHMPT_IWOCA2024","type":"inproceedings","title":"Detecting $K_{2,3}$ as an induced minor","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Anthony Perez","lastName":"Perez"},{"name":"Nicolas Trotignon","lastName":"Trotignon"}],"year":"2024","month":"06","day":"22","booktitle":"Combinatorial Algorithms","journal":"","publisher":"Springer Nature Switzerland","doi":"10.1007/978-3-031-63021-7_12","abstract":"We consider a natural generalization of chordal graphs, in\nwhich every minimal separator induces a subgraph with\nindependence number at most $2$. Such graphs can be\nequivalently defined as graphs that do not contain the\ncomplete bipartite graph $K_{2,3}$ as an induced minor,\nthat is, graphs from which $K_{2,3}$ cannot be obtained by\na sequence of edge contractions and vertex deletions.\n\nWe develop a polynomial-time algorithm for recognizing\nthese graphs. Our algorithm relies on a characterization of\n$K_{2,3}$-induced minor-free graphs in terms of excluding\nparticular induced subgraphs, called Truemper\nconfigurations.","bibtex":"$13"},{"key":"CDDLMMP2024","type":"misc","title":"Allocation of Indivisible Items with a Common Preference Graph: Minimizing Total Dissatisfaction.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Ulrich Pferschy","lastName":"Pferschy"}],"year":"2024","month":"02","booktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2402.00921","eprint":"2402.00921","url":"https://doi.org/10.48550/arXiv.2402.00921","abstract":"$14","bibtex":"$15"},{"key":"CDP_TCS2023","type":"article","title":"Impact of soft ride time constraints on the complexity of scheduling in Dial-A-Ride Problems.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Niklas Paulsen","lastName":"Paulsen"}],"year":"2023","month":"06","booktitle":"","journal":"Theoretical Computer Science","publisher":"","doi":"10.1016/j.tcs.2023.113923","url":"https://www.sciencedirect.com/science/article/pii/S0304397523002360","abstract":"$16","bibtex":"$17"},{"key":"CDDLMMPP_DAM2023","type":"article","title":"Allocation of indivisible items with individual preference graphs.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Ulrich Pferschy","lastName":"Pferschy"},{"name":"Nevena Pivač","lastName":"Pivač"}],"year":"2023","month":"07","booktitle":"","journal":"Discrete Applied Mathematics","publisher":"","doi":"10.1016/j.dam.2023.02.010","eprint":"2202.04465","url":"https://doi.org/10.1016/j.dam.2023.02.010","abstract":"$18","bibtex":"$19"},{"key":"DLMSZ_RIM2024","type":"article","title":"Functionality of box intersection graphs","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Vadim Lozin","lastName":"Lozin"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"},{"name":"Viktor Zamaraev","lastName":"Zamaraev"}],"year":"2024","month":"01","booktitle":"","journal":"Results in Mathematics","publisher":"","doi":"10.1007/s00025-023-02075-2","eprint":"2301.09493","abstract":"Functionality is a graph complexity measure that extends a\nvariety of parameters, such as vertex degree, degeneracy,\nclique-width, or twin-width. In the present paper, we show\nthat functionality is bounded for box intersection graphs\nin $\\mathbb{R}^1$, i.e. for interval graphs, and unbounded\nfor box intersection graphs in $\\mathbb{R}^3$. We also\nstudy a parameter known as symmetric difference, which is\nintermediate between twin-width and functionality, and show\nthat this parameter is unbounded both for interval graphs\nand for unit box intersection graphs in $\\mathbb{R}^2$.","bibtex":"$1a"},{"key":"CDM_ISAAC2022","type":"inproceedings","title":"On Constrained Intersection Representations of Graphs and Digraphs.","authors":[{"name":"Ferdinando Cicalese","lastName":"Cicalese"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2022","month":"12","booktitle":"33rd International Symposium on Algorithms and\nComputation","journal":"","publisher":"Schloss Dagstuhl – Leibniz-Zentrum für Informatik","doi":"10.4230/lipics.isaac.2022.38","url":"https://doi.org/10.4230/LIPIcs.ISAAC.2022.38","abstract":"We study the problem of determining minimal directed\nintersection representations of DAGs in a model introduced\nby [Kostochka, Liu, Machado, and Milenkovic, ISIT2019]:\nvertices are assigned color sets, two vertices are\nconnected by an arc if and only if they share at least one\ncolor and the tail vertex has a strictly smaller color set\nthan the head, and the goal is to minimize the total number\nof colors. We show that the problem is polynomially\nsolvable in the class of triangle-free and Hamiltonian DAGs\nand also disclose the relationship of this problem with\nseveral other models of intersection representations of\ngraphs and digraphs.","bibtex":"$1b"},{"key":"DFKMV2023","type":"misc","title":"Conditions for minimally tough graphs","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Blas Fernández","lastName":"Fernández"},{"name":"Gyula Y. Katona","lastName":"Katona"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kitti Varga","lastName":"Varga"}],"year":"2023","month":"10","booktitle":"","journal":"","publisher":"","eprint":"2210.00383","abstract":"Katona, Solt\\'esz, and Varga showed that no induced\nsubgraph can be excluded from the class of minimally tough\ngraphs. In this paper, we consider the opposite question,\nnamely which induced subgraphs, if any, must necessarily be\npresent in each minimally $t$-tough graph. Katona and Varga\nshowed that for any rational number $t \\in (1/2,1]$, every\nminimally $t$-tough graph contains a hole. We complement\nthis result by showing that for any rational number $t>1$,\nevery minimally $t$-tough graph must contain either a hole\nor an induced subgraph isomorphic to the $k$-sun for some\ninteger $k \\ge 3$. We also show that for any rational\nnumber $t > 1/2$, every minimally $t$-tough graph must\ncontain either an induced $4$-cycle, an induced $5$-cycle,\nor two independent edges as an induced subgraph.","bibtex":"$1c"},{"key":"DFGKM2024","type":"inproceedings","title":"Computing Tree Decompositions with Small Independence Number.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Fedor V. Fomin","lastName":"Fomin"},{"name":"Petr A. Golovach","lastName":"Golovach"},{"name":"Tuukka Korhonen","lastName":"Korhonen"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2024","month":"07","day":"02","booktitle":"51st International Colloquium on Automata, Languages, and\nProgramming (ICALP 2024)","journal":"","publisher":"Schloss Dagstuhl – Leibniz-Zentrum für Informatik","doi":"10.4230/lipics.icalp.2024.51","url":"https://doi.org/10.4230/LIPIcs.ICALP.2024.51","abstract":"$1d","bibtex":"$1e"},{"key":"DMS_JCTB2024","type":"article","title":"Treewidth versus clique number. III. Tree-independence number of graphs with a forbidden structure.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2024","month":"07","booktitle":"","journal":"Journal of Combinatorial Theory, Series B","publisher":"","doi":"10.1016/j.jctb.2024.03.005","eprint":"2206.15092","abstract":"$1f","bibtex":"$20"},{"key":"DMS_JCTB2024_1","type":"article","title":"Treewidth versus clique number. II. Tree-independence number.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2024","month":"01","booktitle":"","journal":"Journal of Combinatorial Theory, Series B","publisher":"","doi":"10.1016/j.jctb.2023.10.006","eprint":"2111.04543","url":"https://doi.org/10.1016/j.jctb.2023.10.006","abstract":"$21","bibtex":"$22"},{"key":"BDRS2024","type":"article","title":"Finding k-community structures in special graph classes.","authors":[{"name":"Narmina Baghirova","lastName":"Baghirova"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Bernard Ries","lastName":"Ries"},{"name":"David Schindl","lastName":"Schindl"}],"year":"2024","month":"12","day":"31","booktitle":"","journal":"Discrete Applied Mathematics","publisher":"","doi":"10.1016/j.dam.2024.07.033","eprint":"2206.14738","abstract":"$23","bibtex":"$24"},{"key":"DMS_SIDMA2021","type":"article","title":"Treewidth versus Clique Number. I. Graph Classes with a Forbidden Structure.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2021","month":"07","booktitle":"","journal":"SIAM Journal on Discrete Mathematics","publisher":"","doi":"10.1137/20m1352119","eprint":"2006.06067","abstract":"$25","bibtex":"$26"},{"key":"CD_TCS2021","type":"article","title":"Colourful components in k-caterpillars and planar graphs.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"}],"year":"2021","month":"12","booktitle":"","journal":"Theoretical Computer Science","publisher":"","doi":"10.1016/j.tcs.2021.09.040","eprint":"1902.11191","abstract":"$27","bibtex":"$28"},{"key":"CDDLMMPP_ADT2021","type":"inproceedings","title":"Allocating Indivisible Items with Minimum Dissatisfaction on Preference Graphs.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Nevena Pivač","lastName":"Pivač"},{"name":"Ulrich Pferschy","lastName":"Pferschy"}],"year":"2021","month":"10","booktitle":"7th International Conference on Algorithmic Decision\nTheory","journal":"","publisher":"","doi":"10.1007/978-3-030-87756-9_16","abstract":"We consider the task of allocating indivisible items to\nagents, when each agent's preferences are captured by means\nof a directed acyclic graph. The vertices of such a graph\nrepresent items and an arc $(a,b)$ means that the\nrespective agent prefers item $a$ over item $b$. The\ndissatisfaction of an agent is measured by the number of\nnon-assigned items which are desired by the agent and for\nwhich no more preferred item is given to the agent. The aim\nis to allocate the items to the agents in a way that\nminimizes (i) the total dissatisfaction over all agents, or\n(ii) the maximum dissatisfaction among the agents. For both\nproblems we study the status of computational complexity\nand obtain NP-hardness results as well as polynomial\nalgorithms with respect to different underlying graph\nstructures, such as trees, stars, paths, and matchings.","bibtex":"$29"},{"key":"DKM_IWOCA2021","type":"inproceedings","title":"Vertex Cover at Distance on H-Free Graphs.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Mirza Krbezlija","lastName":"Krbezlija"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2021","month":"06","day":"30","booktitle":"Combinatorial Algorithms","journal":"","publisher":"Springer International Publishing","doi":"10.1007/978-3-030-79987-8_17","abstract":"The question of characterizing graphs $H$ such that the\n\\textsc{Vertex Cover} problem is solvable in polynomial\ntime in the class of $H$-free graphs is notoriously\ndifficult and still widely open. We completely solve the\ncorresponding question for a distance-based generalization\nof \\textsc{Vertex Cover} called \\textsc{Distance-$k$ Vertex\nCover}, for any positive integer $k$. In this problem the\ntask is to determine, given a graph~$G$ and an\ninteger~$\\ell$, whether $G$ contains a set of at\nmost~$\\ell$ vertices such that each edge of $G$ is at\ndistance at most $k$ from a vertex in the set. We show that\nfor all $k \\ge 1$ and all graphs $H$, the\n\\textsc{Distance-$k$ Vertex Cover} problem is solvable in\npolynomial time in the class of $H$-free graphs if $H$ is\nan induced subgraph of $P_{2k+2} + sP_{\\max\\{k,2\\}}$ for\nsome $s \\ge 0$, and NP-complete otherwise.","bibtex":"$2a"},{"key":"DGHKM2024","type":"article","title":"Graphs with at most two moplexes.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Robert Ganian","lastName":"Ganian"},{"name":"Meike Hatzel","lastName":"Hatzel"},{"name":"Matjaž Krnc","lastName":"Krnc"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2024","month":"05","day":"8","booktitle":"","journal":"Journal of Graph Theory","publisher":"Wiley Online Library","doi":"10.1002/jgt.23102","eprint":"2106.10049","abstract":"$2b","bibtex":"$2c"},{"key":"DGHKM_LATIN2021","type":"inproceedings","title":"Graphs with Two Moplexes.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Robert Ganian","lastName":"Ganian"},{"name":"Meike Hatzel","lastName":"Hatzel"},{"name":"Matjaž Krnc","lastName":"Krnc"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2021","month":"12","booktitle":"XI Latin and American Algorithms, Graphs and Optimization\nSymposium","journal":"","publisher":"","doi":"10.1016/j.procs.2021.11.031","abstract":"$2d","bibtex":"$2e"},{"key":"BBDLM_ALGORITHMICA2021","type":"article","title":"On Girth and the Parameterized Complexity of Token Sliding and Token Jumping.","authors":[{"name":"Valentin Bartier","lastName":"Bartier"},{"name":"Nicolas Bousquet","lastName":"Bousquet"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Kyle Lomer","lastName":"Lomer"},{"name":"Amer E Mouawad","lastName":"Mouawad"}],"year":"2021","month":"07","booktitle":"","journal":"Algorithmica","publisher":"","doi":"10.1007/s00453-021-00848-1","eprint":"2007.01673","url":"https://doi.org/10.1007/s00453-021-00848-1","abstract":"$2f","bibtex":"$30"},{"key":"BBDLM_ISAAC2020","type":"inproceedings","title":"On Girth and the Parameterized Complexity of Token Sliding and Token Jumping.","authors":[{"name":"Valentin Bartier","lastName":"Bartier"},{"name":"Nicolas Bousquet","lastName":"Bousquet"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Kyle Lomer","lastName":"Lomer"},{"name":"Amer E Mouawad","lastName":"Mouawad"}],"year":"2020","month":"12","booktitle":"31st International Symposium on Algorithms and\nComputation","journal":"","publisher":"Schloss Dagstuhl–Leibniz-Zentrum für Informatik","doi":"10.4230/lipics.isaac.2020.44","url":"https://doi.org/10.4230/LIPIcs.ISAAC.2020.44","abstract":"$31","bibtex":"$32"},{"key":"DMS_WG2020","type":"inproceedings","title":"Treewidth Versus Clique Number in Graph Classes with a Forbidden Structure.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2020","month":"10","day":"09","booktitle":"Graph-Theoretic Concepts in Computer Science","journal":"","publisher":"Springer International Publishing","doi":"10.1007/978-3-030-60440-0_8","abstract":"$33","bibtex":"$34"},{"key":"BCD_IPL2020","type":"article","title":"Graphs without a partition into two proportionally dense subgraphs.","authors":[{"name":"Cristina Bazgan","lastName":"Bazgan"},{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"}],"year":"2020","month":"03","booktitle":"","journal":"Information Processing Letters","publisher":"","doi":"10.1016/j.ipl.2019.105877","eprint":"1806.10963","url":"https://doi.org/10.1016/j.ipl.2019.105877","abstract":"A \\emph{proportionally dense subgraph} (PDS) is an induced\nsubgraph of a graph such that each vertex in the PDS is\nadjacent to proportionally as many vertices in the subgraph\nas in the rest of the graph. In this paper, we study a\npartition of a graph into two proportionally dense\nsubgraphs, namely a \\emph{$2$-PDS partition}, with and\nwithout additional constraint of connectivity of the\nsubgraphs. We present two infinite classes of graphs: one\nwith graphs without a $2$-PDS partition, and another with\ngraphs that only admit a disconnected $2$-PDS partition.\nThese results answer some questions proposed by Bazgan et\nal. [Algorithmica 80(6) (2018), 1890--1908].","bibtex":"$35"},{"key":"BCDP_DAM2019","type":"article","title":"Proportionally dense subgraph of maximum size: Complexity and approximation.","authors":[{"name":"Cristina Bazgan","lastName":"Bazgan"},{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Thomas Pontoizeau","lastName":"Pontoizeau"}],"year":"2019","month":"11","booktitle":"","journal":"Discrete Applied Mathematics","publisher":"","doi":"10.1016/j.dam.2019.07.010","eprint":"1903.06579","url":"https://doi.org/10.1016/j.dam.2019.07.010","abstract":"We define a \\emph{proportionally dense subgraph} (PDS) as\nan induced subgraph of a graph with the property that each\nvertex in the PDS is adjacent to proportionally as many\nvertices in the subgraph as in the graph. We prove that the\nproblem of finding a PDS of maximum size is NP-hard, more\nprecisely APX-hard, even on split graphs. On the other\nhand, we present a simple polynomial-time\n$(2-\\frac{2}{\\Delta+1})$-approximation algorithm for the\nproblem. We also prove that all Hamiltonian cubic graphs\n(except two) have a PDS of the maximum possible size which\ncan be found in linear time (if a Hamiltonian cycle is\ngiven). Finally, we show that deciding if a PDS is\ninclusion-wise maximal is co-NP-complete on bipartite\ngraphs.","bibtex":"$36"},{"key":"CD_IWOCA2019","type":"inproceedings","title":"Towards a Complexity Dichotomy for Colourful Components Problems on k-caterpillars and Small-Degree Planar Graphs.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"}],"year":"2019","month":"07","booktitle":"Combinatorial algorithms","journal":"","publisher":"Springer, Cham","doi":"10.1007/978-3-030-25005-8_12","url":"https://doi.org/10.1007/978-3-030-25005-8_12","abstract":"$37","bibtex":"$38"},{"key":"CDP_CIAC2019","type":"inproceedings","title":"Complexity of Scheduling for DARP with Soft Ride Times.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Niklas Paulsen","lastName":"Paulsen"}],"year":"2019","month":"04","booktitle":"Algorithms and complexity","journal":"","publisher":"Springer, Cham","doi":"10.1007/978-3-030-17402-6_13","url":"https://doi.org/10.1007/978-3-030-17402-6_13","abstract":"The Dial-a-Ride problem may contain various constraints\nfor pickup-delivery requests, such as time windows and ride\ntime constraints. For a tour, given as a sequence of pickup\nand delivery stops, there exist polynomial time algorithms\nto find a schedule respecting these constraints, provided\nthat there exists one. However, if no feasible schedule\nexists, the natural question is to find a schedule\nminimising constraint violations. We model a generic\nfixed-sequence scheduling problem, allowing lateness and\nride time violations with linear penalty functions and\nprove its APX-hardness. We also present an approach leading\nto a polynomial time algorithm if only the time window\nconstraints can be violated (by late visits). Then, we show\nthat the problem can be solved in polynomial time if all\nthe ride time constraints are bounded by a constant.\nLastly, we give a polynomial time algorithm for the\ninstances where all the pickups precede all the deliveries\nin the sequence of stops.","bibtex":"$39"},{"key":"WCDG_ALGORITHMICA2018","type":"article","title":"Scaffolding Problems Revisited: Complexity, Approximation and Fixed Parameter Tractable Algorithms, and Some Special Cases.","authors":[{"name":"Mathias Weller","lastName":"Weller"},{"name":"Annie Chateau","lastName":"Chateau"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Rodolphe Giroudeau","lastName":"Giroudeau"}],"year":"2018","month":"01","booktitle":"","journal":"Algorithmica","publisher":"","doi":"10.1007/s00453-018-0405-x","url":"https://doi.org/10.1007/s00453-018-0405-x","abstract":"This paper is devoted to new results about the scaffolding\nproblem, an integral problem of genome inference in\nbioinformatics. The problem consists in finding a\ncollection of disjoint cycles and paths covering a\nparticular graph called the “scaffold graph”. We\nexamine the difficulty and the approximability of the\nscaffolding problem in special classes of graphs, either\nclose to trees, or very dense. We propose negative and\npositive results, exploring the frontier between difficulty\nand tractability of computing and/or approximating a\nsolution to the problem. Also, we explore a new direction\nthrough related problems consisting in finding a family of\nedges having a strong effect on solution weight.","bibtex":"$3a"},{"key":"DWCG_COCOA2016","type":"inproceedings","title":"Instance Guaranteed Ratio on Greedy Heuristic for Genome Scaffolding.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Mathias Weller","lastName":"Weller"},{"name":"Annie Chateau","lastName":"Chateau"},{"name":"Rodolphe Giroudeau","lastName":"Giroudeau"}],"year":"2016","month":"10","booktitle":"Combinatorial optimization and applications","journal":"","publisher":"Springer, Cham","doi":"10.1007/978-3-319-48749-6_22","url":"https://doi.org/10.1007/978-3-319-48749-6_22","abstract":"$3b","bibtex":"$3c"}]}]}],["$L3d"],"$L3e"]}],"loading":null,"isPartial":false}
-3d:["$","script","script-0",{"src":"/_next/static/chunks/d0f5d0046732141d.js","async":true}]
+}0:{"buildId":"rZOlwTKsiyFJ3eQUj6BE_","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":["$","$L2",null,{"publications":[{"key":"B-SDLMZ2025","type":"misc","title":"Awesome graph parameters","authors":[{"name":"Kenny Bešter Štorgel","lastName":"Bešter Štorgel"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Vadim Lozin","lastName":"Lozin"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Viktor Zamaraev","lastName":"Zamaraev"}],"year":"2025","month":"11","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"https://doi.org/10.48550/arXiv.2511.05285","eprint":"2511.05285","abstract":"$3","bibtex":"$4"},{"key":"DDHP2025","type":"misc","title":"Induced Minor Models. II. Sufficient conditions for\npolynomial-time detection of induced minors","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Anthony Perez","lastName":"Perez"}],"year":"2025","month":"07","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"https://doi.org/10.48550/arXiv.2501.00161","eprint":"2501.00161","abstract":"$5","bibtex":"$6"},{"key":"CDDLMMP2025","type":"article","title":"Minimizing maximum dissatisfaction in the allocation of indivisible items under a common preference graph.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Ulrich Pferschy","lastName":"Pferschy"}],"year":"2025","month":"02","booktitle":"","shortbooktitle":"","journal":"Discrete Optimization","publisher":"","doi":"10.1016/j.disopt.2025.100913","eprint":"2312.01804","abstract":"$7","bibtex":"$8"},{"key":"DFGKM2025","type":"article","title":"Computing Tree Decompositions with Small Independence\nNumber","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Fedor V. Fomin","lastName":"Fomin"},{"name":"Petr A. Golovach","lastName":"Golovach"},{"name":"Tuukka Korhonen","lastName":"Korhonen"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2025","month":"09","booktitle":"","shortbooktitle":"","journal":"ACM Transactions on Algorithms","publisher":"Association for Computing Machinery","doi":"10.1145/3767730","eprint":"2207.09993","url":"https://doi.org/10.1145/3767730","abstract":"$9","bibtex":"$a"},{"key":"DMMY2025","type":"misc","title":"Layered tree-independence number and clique-based separators.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Andrea Munaro","lastName":"Munaro"},{"name":"Shizhou Yang","lastName":"Yang"}],"year":"2025","month":"06","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2506.12424","eprint":"2506.12424","abstract":"$b","bibtex":"$c"},{"key":"CDM2025","type":"misc","title":"On constrained intersection representations of graphs and digraphs.","authors":[{"name":"Ferdinando Cicalese","lastName":"Cicalese"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2025","month":"04","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2504.18365","eprint":"2504.18365","abstract":"We study the problem of determining optimal directed\nintersection representations of DAGs in a model introduced\nby Kostochka, Liu, Machado, and Milenkovic [ISIT2019]:\nvertices are assigned color sets so that there is an arc\nfrom a vertex $u$ to a vertex $v$ if and only if their\ncolor sets have nonempty intersection and $v$ gets assigned\nstrictly more colors than $u$, and the goal is to minimize\nthe total number of colors. We show that the problem is\npolynomially solvable in the class of triangle-free and\nHamiltonian DAGs and also disclose the relationship of this\nproblem with several other models of intersection\nrepresentations of graphs and digraphs.","bibtex":"$d"},{"key":"BDDHMPT2025","type":"misc","title":"Induced Minor Models. I. Structural Properties and\nAlgorithmic Consequences","authors":[{"name":"Nicolas Bousquet","lastName":"Bousquet"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Anthony Perez","lastName":"Perez"},{"name":"Nicolas Trotignon","lastName":"Trotignon"}],"year":"2025","month":"02","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"10.48550/arXiv.2402.08332","eprint":"2402.08332","abstract":"$e","bibtex":"$f"},{"key":"DDHP2025_1","type":"inproceedings","title":"Sufficient Conditions for Polynomial-Time Detection of Induced Minors.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Anthony Perez","lastName":"Perez"}],"year":"2025","month":"02","booktitle":"Theory and Practice of Computer Science","shortbooktitle":"SOFSEM","journal":"","publisher":"Springer Nature Switzerland","doi":"10.1007/978-3-031-82670-2_15","eprint":"2501.00161","url":"https://arxiv.org/abs/2501.00161","abstract":"The $H$-Induced Minor Containment problem ($H$-IMC)\nconsists in deciding if a fixed graph $H$ is an induced\nminor of a graph $G$ given as input, that is, whether $H$\ncan be obtained from $G$ by deleting vertices and\ncontracting edges. Several graphs $H$ are known for which\n$H$-IMC is NP-complete, even when $H$ is a tree. In this\npaper, we investigate which conditions on $H$ and $G$ are\nsufficient so that the problem becomes polynomial-time\nsolvable. Our results identify three infinite classes of\ngraphs such that, if $H$ belongs to one of these classes,\nthen $H$-IMC can be solved in polynomial time. Moreover, we\nshow that if the input graph $G$ excludes long induced\npaths, then $H$-IMC is polynomial-time solvable for any\nfixed graph $H$. As a byproduct of our results, this\nimplies that $H$-IMC is polynomial-time solvable for all\ngraphs $H$ with at most 5 vertices, except for three open\ncases.","bibtex":"$10"},{"key":"DKKMMSW2024","type":"misc","title":"Treewidth versus clique number. IV. Tree-independence number of graphs excluding an induced star.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Matjaž Krnc","lastName":"Krnc"},{"name":"O-joung Kwon","lastName":"Kwon"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Andrea Munaro","lastName":"Munaro"},{"name":"Kenny Štorgel","lastName":"Štorgel"},{"name":"Sebastian Wiederrecht","lastName":"Wiederrecht"}],"year":"2024","month":"02","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2402.11222","eprint":"2402.11222","url":"https://doi.org/10.48550/arXiv.2402.11222","abstract":"$11","bibtex":"$12"},{"key":"DDHMPT_IWOCA2024","type":"inproceedings","title":"Detecting $K_{2,3}$ as an induced minor","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Maël Dumas","lastName":"Dumas"},{"name":"Claire Hilaire","lastName":"Hilaire"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Anthony Perez","lastName":"Perez"},{"name":"Nicolas Trotignon","lastName":"Trotignon"}],"year":"2024","month":"06","day":"22","booktitle":"International Workshop on Combinatorial Algorithms","shortbooktitle":"IWOCA","journal":"","publisher":"Springer Nature Switzerland","doi":"10.1007/978-3-031-63021-7_12","abstract":"We consider a natural generalization of chordal graphs, in\nwhich every minimal separator induces a subgraph with\nindependence number at most $2$. Such graphs can be\nequivalently defined as graphs that do not contain the\ncomplete bipartite graph $K_{2,3}$ as an induced minor,\nthat is, graphs from which $K_{2,3}$ cannot be obtained by\na sequence of edge contractions and vertex deletions.\n\nWe develop a polynomial-time algorithm for recognizing\nthese graphs. Our algorithm relies on a characterization of\n$K_{2,3}$-induced minor-free graphs in terms of excluding\nparticular induced subgraphs, called Truemper\nconfigurations.","bibtex":"$13"},{"key":"CDDLMMP2024","type":"misc","title":"Allocation of Indivisible Items with a Common Preference Graph: Minimizing Total Dissatisfaction.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Ulrich Pferschy","lastName":"Pferschy"}],"year":"2024","month":"02","booktitle":"","shortbooktitle":"","journal":"","publisher":"","doi":"10.48550/arxiv.2402.00921","eprint":"2402.00921","url":"https://doi.org/10.48550/arXiv.2402.00921","abstract":"$14","bibtex":"$15"},{"key":"CDP_TCS2023","type":"article","title":"Impact of soft ride time constraints on the complexity of scheduling in Dial-A-Ride Problems.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Niklas Paulsen","lastName":"Paulsen"}],"year":"2023","month":"06","booktitle":"","shortbooktitle":"","journal":"Theoretical Computer Science","publisher":"","doi":"10.1016/j.tcs.2023.113923","url":"https://www.sciencedirect.com/science/article/pii/S0304397523002360","abstract":"$16","bibtex":"$17"},{"key":"CDDLMMPP_DAM2023","type":"article","title":"Allocation of indivisible items with individual preference graphs.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Ulrich Pferschy","lastName":"Pferschy"},{"name":"Nevena Pivač","lastName":"Pivač"}],"year":"2023","month":"07","booktitle":"","shortbooktitle":"","journal":"Discrete Applied Mathematics","publisher":"","doi":"10.1016/j.dam.2023.02.010","eprint":"2202.04465","url":"https://doi.org/10.1016/j.dam.2023.02.010","abstract":"$18","bibtex":"$19"},{"key":"DLMSZ_RIM2024","type":"article","title":"Functionality of box intersection graphs","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Vadim Lozin","lastName":"Lozin"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"},{"name":"Viktor Zamaraev","lastName":"Zamaraev"}],"year":"2024","month":"01","booktitle":"","shortbooktitle":"","journal":"Results in Mathematics","publisher":"","doi":"10.1007/s00025-023-02075-2","eprint":"2301.09493","abstract":"Functionality is a graph complexity measure that extends a\nvariety of parameters, such as vertex degree, degeneracy,\nclique-width, or twin-width. In the present paper, we show\nthat functionality is bounded for box intersection graphs\nin $\\mathbb{R}^1$, i.e. for interval graphs, and unbounded\nfor box intersection graphs in $\\mathbb{R}^3$. We also\nstudy a parameter known as symmetric difference, which is\nintermediate between twin-width and functionality, and show\nthat this parameter is unbounded both for interval graphs\nand for unit box intersection graphs in $\\mathbb{R}^2$.","bibtex":"$1a"},{"key":"CDM_ISAAC2022","type":"inproceedings","title":"On Constrained Intersection Representations of Graphs and Digraphs.","authors":[{"name":"Ferdinando Cicalese","lastName":"Cicalese"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2022","month":"12","booktitle":"33rd International Symposium on Algorithms and\nComputation","shortbooktitle":"ISAAC","journal":"","publisher":"Schloss Dagstuhl – Leibniz-Zentrum für Informatik","doi":"10.4230/lipics.isaac.2022.38","url":"https://doi.org/10.4230/LIPIcs.ISAAC.2022.38","abstract":"We study the problem of determining minimal directed\nintersection representations of DAGs in a model introduced\nby [Kostochka, Liu, Machado, and Milenkovic, ISIT2019]:\nvertices are assigned color sets, two vertices are\nconnected by an arc if and only if they share at least one\ncolor and the tail vertex has a strictly smaller color set\nthan the head, and the goal is to minimize the total number\nof colors. We show that the problem is polynomially\nsolvable in the class of triangle-free and Hamiltonian DAGs\nand also disclose the relationship of this problem with\nseveral other models of intersection representations of\ngraphs and digraphs.","bibtex":"$1b"},{"key":"DFKMV2023","type":"misc","title":"Conditions for minimally tough graphs","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Blas Fernández","lastName":"Fernández"},{"name":"Gyula Y. Katona","lastName":"Katona"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kitti Varga","lastName":"Varga"}],"year":"2023","month":"10","booktitle":"","shortbooktitle":"","journal":"","publisher":"","eprint":"2210.00383","abstract":"Katona, Solt\\'esz, and Varga showed that no induced\nsubgraph can be excluded from the class of minimally tough\ngraphs. In this paper, we consider the opposite question,\nnamely which induced subgraphs, if any, must necessarily be\npresent in each minimally $t$-tough graph. Katona and Varga\nshowed that for any rational number $t \\in (1/2,1]$, every\nminimally $t$-tough graph contains a hole. We complement\nthis result by showing that for any rational number $t>1$,\nevery minimally $t$-tough graph must contain either a hole\nor an induced subgraph isomorphic to the $k$-sun for some\ninteger $k \\ge 3$. We also show that for any rational\nnumber $t > 1/2$, every minimally $t$-tough graph must\ncontain either an induced $4$-cycle, an induced $5$-cycle,\nor two independent edges as an induced subgraph.","bibtex":"$1c"},{"key":"DFGKM2024","type":"inproceedings","title":"Computing Tree Decompositions with Small Independence Number.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Fedor V. Fomin","lastName":"Fomin"},{"name":"Petr A. Golovach","lastName":"Golovach"},{"name":"Tuukka Korhonen","lastName":"Korhonen"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2024","month":"07","day":"02","booktitle":"51st International Colloquium on Automata, Languages, and\nProgramming","shortbooktitle":"ICALP","journal":"","publisher":"Schloss Dagstuhl – Leibniz-Zentrum für Informatik","doi":"10.4230/lipics.icalp.2024.51","url":"https://doi.org/10.4230/LIPIcs.ICALP.2024.51","abstract":"$1d","bibtex":"$1e"},{"key":"DMS_JCTB2024","type":"article","title":"Treewidth versus clique number. III. Tree-independence number of graphs with a forbidden structure.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2024","month":"07","booktitle":"","shortbooktitle":"","journal":"Journal of Combinatorial Theory, Series B","publisher":"","doi":"10.1016/j.jctb.2024.03.005","eprint":"2206.15092","abstract":"$1f","bibtex":"$20"},{"key":"DMS_JCTB2024_1","type":"article","title":"Treewidth versus clique number. II. Tree-independence number.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2024","month":"01","booktitle":"","shortbooktitle":"","journal":"Journal of Combinatorial Theory, Series B","publisher":"","doi":"10.1016/j.jctb.2023.10.006","eprint":"2111.04543","url":"https://doi.org/10.1016/j.jctb.2023.10.006","abstract":"$21","bibtex":"$22"},{"key":"BDRS2024","type":"article","title":"Finding k-community structures in special graph classes.","authors":[{"name":"Narmina Baghirova","lastName":"Baghirova"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Bernard Ries","lastName":"Ries"},{"name":"David Schindl","lastName":"Schindl"}],"year":"2024","month":"12","day":"31","booktitle":"","shortbooktitle":"","journal":"Discrete Applied Mathematics","publisher":"","doi":"10.1016/j.dam.2024.07.033","eprint":"2206.14738","abstract":"$23","bibtex":"$24"},{"key":"DMS_SIDMA2021","type":"article","title":"Treewidth versus Clique Number. I. Graph Classes with a Forbidden Structure.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2021","month":"07","booktitle":"","shortbooktitle":"","journal":"SIAM Journal on Discrete Mathematics","publisher":"","doi":"10.1137/20m1352119","eprint":"2006.06067","abstract":"$25","bibtex":"$26"},{"key":"CD_TCS2021","type":"article","title":"Colourful components in k-caterpillars and planar graphs.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"}],"year":"2021","month":"12","booktitle":"","shortbooktitle":"","journal":"Theoretical Computer Science","publisher":"","doi":"10.1016/j.tcs.2021.09.040","eprint":"1902.11191","abstract":"$27","bibtex":"$28"},{"key":"CDDLMMPP_ADT2021","type":"inproceedings","title":"Allocating Indivisible Items with Minimum Dissatisfaction on Preference Graphs.","authors":[{"name":"Nina Chiarelli","lastName":"Chiarelli"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Andreas Darmann","lastName":"Darmann"},{"name":"Stefan Lendl","lastName":"Lendl"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Peter Muršič","lastName":"Muršič"},{"name":"Nevena Pivač","lastName":"Pivač"},{"name":"Ulrich Pferschy","lastName":"Pferschy"}],"year":"2021","month":"10","booktitle":"7th International Conference on Algorithmic Decision\nTheory","shortbooktitle":"ADT","journal":"","publisher":"","doi":"10.1007/978-3-030-87756-9_16","abstract":"We consider the task of allocating indivisible items to\nagents, when each agent's preferences are captured by means\nof a directed acyclic graph. The vertices of such a graph\nrepresent items and an arc $(a,b)$ means that the\nrespective agent prefers item $a$ over item $b$. The\ndissatisfaction of an agent is measured by the number of\nnon-assigned items which are desired by the agent and for\nwhich no more preferred item is given to the agent. The aim\nis to allocate the items to the agents in a way that\nminimizes (i) the total dissatisfaction over all agents, or\n(ii) the maximum dissatisfaction among the agents. For both\nproblems we study the status of computational complexity\nand obtain NP-hardness results as well as polynomial\nalgorithms with respect to different underlying graph\nstructures, such as trees, stars, paths, and matchings.","bibtex":"$29"},{"key":"DKM_IWOCA2021","type":"inproceedings","title":"Vertex Cover at Distance on H-Free Graphs.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Mirza Krbezlija","lastName":"Krbezlija"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2021","month":"06","day":"30","booktitle":"International Workshop on Combinatorial Algorithms","shortbooktitle":"IWOCA","journal":"","publisher":"Springer International Publishing","doi":"10.1007/978-3-030-79987-8_17","abstract":"The question of characterizing graphs $H$ such that the\n\\textsc{Vertex Cover} problem is solvable in polynomial\ntime in the class of $H$-free graphs is notoriously\ndifficult and still widely open. We completely solve the\ncorresponding question for a distance-based generalization\nof \\textsc{Vertex Cover} called \\textsc{Distance-$k$ Vertex\nCover}, for any positive integer $k$. In this problem the\ntask is to determine, given a graph~$G$ and an\ninteger~$\\ell$, whether $G$ contains a set of at\nmost~$\\ell$ vertices such that each edge of $G$ is at\ndistance at most $k$ from a vertex in the set. We show that\nfor all $k \\ge 1$ and all graphs $H$, the\n\\textsc{Distance-$k$ Vertex Cover} problem is solvable in\npolynomial time in the class of $H$-free graphs if $H$ is\nan induced subgraph of $P_{2k+2} + sP_{\\max\\{k,2\\}}$ for\nsome $s \\ge 0$, and NP-complete otherwise.","bibtex":"$2a"},{"key":"DGHKM2024","type":"article","title":"Graphs with at most two moplexes.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Robert Ganian","lastName":"Ganian"},{"name":"Meike Hatzel","lastName":"Hatzel"},{"name":"Matjaž Krnc","lastName":"Krnc"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2024","month":"05","day":"8","booktitle":"","shortbooktitle":"","journal":"Journal of Graph Theory","publisher":"Wiley Online Library","doi":"10.1002/jgt.23102","eprint":"2106.10049","abstract":"$2b","bibtex":"$2c"},{"key":"DGHKM_LATIN2021","type":"inproceedings","title":"Graphs with Two Moplexes.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Robert Ganian","lastName":"Ganian"},{"name":"Meike Hatzel","lastName":"Hatzel"},{"name":"Matjaž Krnc","lastName":"Krnc"},{"name":"Martin Milanič","lastName":"Milanič"}],"year":"2021","month":"12","booktitle":"XI Latin and American Algorithms, Graphs and Optimization\nSymposium","shortbooktitle":"LATIN","journal":"","publisher":"","doi":"10.1016/j.procs.2021.11.031","abstract":"$2d","bibtex":"$2e"},{"key":"BBDLM_ALGORITHMICA2021","type":"article","title":"On Girth and the Parameterized Complexity of Token Sliding and Token Jumping.","authors":[{"name":"Valentin Bartier","lastName":"Bartier"},{"name":"Nicolas Bousquet","lastName":"Bousquet"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Kyle Lomer","lastName":"Lomer"},{"name":"Amer E Mouawad","lastName":"Mouawad"}],"year":"2021","month":"07","booktitle":"","shortbooktitle":"","journal":"Algorithmica","publisher":"","doi":"10.1007/s00453-021-00848-1","eprint":"2007.01673","url":"https://doi.org/10.1007/s00453-021-00848-1","abstract":"$2f","bibtex":"$30"},{"key":"BBDLM_ISAAC2020","type":"inproceedings","title":"On Girth and the Parameterized Complexity of Token Sliding and Token Jumping.","authors":[{"name":"Valentin Bartier","lastName":"Bartier"},{"name":"Nicolas Bousquet","lastName":"Bousquet"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Kyle Lomer","lastName":"Lomer"},{"name":"Amer E Mouawad","lastName":"Mouawad"}],"year":"2020","month":"12","booktitle":"31st International Symposium on Algorithms and\nComputation","shortbooktitle":"ISAAC","journal":"","publisher":"Schloss Dagstuhl–Leibniz-Zentrum für Informatik","doi":"10.4230/lipics.isaac.2020.44","url":"https://doi.org/10.4230/LIPIcs.ISAAC.2020.44","abstract":"$31","bibtex":"$32"},{"key":"DMS_WG2020","type":"inproceedings","title":"Treewidth Versus Clique Number in Graph Classes with a Forbidden Structure.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Martin Milanič","lastName":"Milanič"},{"name":"Kenny Štorgel","lastName":"Štorgel"}],"year":"2020","month":"10","day":"09","booktitle":"International Workshop on Graph-Theoretic Concepts in Computer Science","shortbooktitle":"WG","journal":"","publisher":"Springer International Publishing","doi":"10.1007/978-3-030-60440-0_8","abstract":"$33","bibtex":"$34"},{"key":"BCD_IPL2020","type":"article","title":"Graphs without a partition into two proportionally dense subgraphs.","authors":[{"name":"Cristina Bazgan","lastName":"Bazgan"},{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"}],"year":"2020","month":"03","booktitle":"","shortbooktitle":"","journal":"Information Processing Letters","publisher":"","doi":"10.1016/j.ipl.2019.105877","eprint":"1806.10963","url":"https://doi.org/10.1016/j.ipl.2019.105877","abstract":"A \\emph{proportionally dense subgraph} (PDS) is an induced\nsubgraph of a graph such that each vertex in the PDS is\nadjacent to proportionally as many vertices in the subgraph\nas in the rest of the graph. In this paper, we study a\npartition of a graph into two proportionally dense\nsubgraphs, namely a \\emph{$2$-PDS partition}, with and\nwithout additional constraint of connectivity of the\nsubgraphs. We present two infinite classes of graphs: one\nwith graphs without a $2$-PDS partition, and another with\ngraphs that only admit a disconnected $2$-PDS partition.\nThese results answer some questions proposed by Bazgan et\nal. [Algorithmica 80(6) (2018), 1890--1908].","bibtex":"$35"},{"key":"BCDP_DAM2019","type":"article","title":"Proportionally dense subgraph of maximum size: Complexity and approximation.","authors":[{"name":"Cristina Bazgan","lastName":"Bazgan"},{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Thomas Pontoizeau","lastName":"Pontoizeau"}],"year":"2019","month":"11","booktitle":"","shortbooktitle":"","journal":"Discrete Applied Mathematics","publisher":"","doi":"10.1016/j.dam.2019.07.010","eprint":"1903.06579","url":"https://doi.org/10.1016/j.dam.2019.07.010","abstract":"We define a \\emph{proportionally dense subgraph} (PDS) as\nan induced subgraph of a graph with the property that each\nvertex in the PDS is adjacent to proportionally as many\nvertices in the subgraph as in the graph. We prove that the\nproblem of finding a PDS of maximum size is NP-hard, more\nprecisely APX-hard, even on split graphs. On the other\nhand, we present a simple polynomial-time\n$(2-\\frac{2}{\\Delta+1})$-approximation algorithm for the\nproblem. We also prove that all Hamiltonian cubic graphs\n(except two) have a PDS of the maximum possible size which\ncan be found in linear time (if a Hamiltonian cycle is\ngiven). Finally, we show that deciding if a PDS is\ninclusion-wise maximal is co-NP-complete on bipartite\ngraphs.","bibtex":"$36"},{"key":"CD_IWOCA2019","type":"inproceedings","title":"Towards a Complexity Dichotomy for Colourful Components Problems on k-caterpillars and Small-Degree Planar Graphs.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"}],"year":"2019","month":"07","booktitle":"International Workshop on Combinatorial Algorithms","shortbooktitle":"IWOCA","journal":"","publisher":"Springer, Cham","doi":"10.1007/978-3-030-25005-8_12","url":"https://doi.org/10.1007/978-3-030-25005-8_12","abstract":"$37","bibtex":"$38"},{"key":"CDP_CIAC2019","type":"inproceedings","title":"Complexity of Scheduling for DARP with Soft Ride Times.","authors":[{"name":"Janka Chlebíková","lastName":"Chlebíková"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Niklas Paulsen","lastName":"Paulsen"}],"year":"2019","month":"04","booktitle":"International Conference on Algorithms and Complexity","shortbooktitle":"CIAC","journal":"","publisher":"Springer, Cham","doi":"10.1007/978-3-030-17402-6_13","url":"https://doi.org/10.1007/978-3-030-17402-6_13","abstract":"The Dial-a-Ride problem may contain various constraints\nfor pickup-delivery requests, such as time windows and ride\ntime constraints. For a tour, given as a sequence of pickup\nand delivery stops, there exist polynomial time algorithms\nto find a schedule respecting these constraints, provided\nthat there exists one. However, if no feasible schedule\nexists, the natural question is to find a schedule\nminimising constraint violations. We model a generic\nfixed-sequence scheduling problem, allowing lateness and\nride time violations with linear penalty functions and\nprove its APX-hardness. We also present an approach leading\nto a polynomial time algorithm if only the time window\nconstraints can be violated (by late visits). Then, we show\nthat the problem can be solved in polynomial time if all\nthe ride time constraints are bounded by a constant.\nLastly, we give a polynomial time algorithm for the\ninstances where all the pickups precede all the deliveries\nin the sequence of stops.","bibtex":"$39"},{"key":"WCDG_ALGORITHMICA2018","type":"article","title":"Scaffolding Problems Revisited: Complexity, Approximation and Fixed Parameter Tractable Algorithms, and Some Special Cases.","authors":[{"name":"Mathias Weller","lastName":"Weller"},{"name":"Annie Chateau","lastName":"Chateau"},{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Rodolphe Giroudeau","lastName":"Giroudeau"}],"year":"2018","month":"01","booktitle":"","shortbooktitle":"","journal":"Algorithmica","publisher":"","doi":"10.1007/s00453-018-0405-x","url":"https://doi.org/10.1007/s00453-018-0405-x","abstract":"This paper is devoted to new results about the scaffolding\nproblem, an integral problem of genome inference in\nbioinformatics. The problem consists in finding a\ncollection of disjoint cycles and paths covering a\nparticular graph called the “scaffold graph”. We\nexamine the difficulty and the approximability of the\nscaffolding problem in special classes of graphs, either\nclose to trees, or very dense. We propose negative and\npositive results, exploring the frontier between difficulty\nand tractability of computing and/or approximating a\nsolution to the problem. Also, we explore a new direction\nthrough related problems consisting in finding a family of\nedges having a strong effect on solution weight.","bibtex":"$3a"},{"key":"DWCG_COCOA2016","type":"inproceedings","title":"Instance Guaranteed Ratio on Greedy Heuristic for Genome Scaffolding.","authors":[{"name":"Clément Dallard","lastName":"Dallard"},{"name":"Mathias Weller","lastName":"Weller"},{"name":"Annie Chateau","lastName":"Chateau"},{"name":"Rodolphe Giroudeau","lastName":"Giroudeau"}],"year":"2016","month":"10","booktitle":"International Conference on Combinatorial Optimization and Applications","shortbooktitle":"COCOA","journal":"","publisher":"Springer, Cham","doi":"10.1007/978-3-319-48749-6_22","url":"https://doi.org/10.1007/978-3-319-48749-6_22","abstract":"$3b","bibtex":"$3c"}]}]}],["$L3d"],"$L3e"]}],"loading":null,"isPartial":false}
+3d:["$","script","script-0",{"src":"/_next/static/chunks/c3e7dd3473558d73.js","async":true}]
 3e:["$","$L3f",null,{"children":["$","$40",null,{"name":"Next.MetadataOutlet","children":"$@41"}]}]
 41:null
